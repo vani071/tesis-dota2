@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<phpunit backupGlobals="false"
+         backupStaticAttributes="false"
+         colors="true"
+         convertErrorsToExceptions="true"
+         convertNoticesToExceptions="true"
+         convertWarningsToExceptions="true"
+         processIsolation="false"
+         stopOnFailure="false">
+    <testsuites>
+        <testsuite name="Unit">
+            <directory suffix="Test.php">./testing</directory>
+        </testsuite>
+    </testsuites>
+    <logging>
+        <log type="coverage-clover" target="testing/reports/logs/clover.xml"/>
+        <log type="coverage-html" target="testing/reports/coverage" lowUpperBound="35" highLowerBound="70" />
+    </logging>
+    <filter>
+        <whitelist processUncoveredFilesFromWhitelist="true">
+            <file>functions.php</file>
+            <exclude>
+                <directory>ExternalLibraries</directory>
+            </exclude>
+        </whitelist>
+    </filter>
+</phpunit>
