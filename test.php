@@ -23,6 +23,9 @@ echo 'Peak usage: ' . round(memory_get_peak_usage() / 1024) . "KB of memory.\n";
 echo 'Total time: ' . ($end_time - $start_time) . " seconds\n";
 
 var_dump($result);
+$fp = fopen('.result.json', 'w');
+fwrite($fp, json_encode($result));
+fclose($fp);
 // foreach ($result[0] as $hero => $freq) {
 //     echo "{$hero}\n";
 // }

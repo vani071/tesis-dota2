@@ -1,5 +1,24 @@
 <?php
 
+function countCombinationInLineups(string $combination, array $lineups) {
+    $count = 0;
+
+    foreach ($lineups as $lineup) {
+        $heroes = explode('+', $combination);
+        $is_found = true;
+
+        foreach ($heroes as $hero) {
+            $is_found &= (strpos($lineup, $hero) !== false);
+        }
+
+        if ($is_found) {
+            $count++;
+        }
+    }
+
+    return $count;
+}
+
 function getFirstFrequentItemSet(array $lineups)
 {
     $frequent_itemset = [];
@@ -23,19 +42,8 @@ function getFirstFrequentItemSet(array $lineups)
 
 function getFrequentItemSet(array $candidate_set, array $lineups)
 {
-    foreach ($lineups as $lineup) {
-        foreach (array_keys($candidate_set) as $key) {
-            $heroes = explode('+', $key);
-            $is_found = true;
-
-            foreach ($heroes as $hero) {
-                $is_found &= (strpos($lineup, $hero) !== false);
-            }
-
-            if ($is_found) {
-                $candidate_set[$key]++;
-            }
-        }
+    foreach (array_keys($candidate_set) as $key) {
+        $candidate_set[$key] = countCombinationInLineups($key, $lineups);
     }
 
     return $candidate_set;
@@ -112,6 +120,32 @@ function pruneLastCandidateSet(array $candidate_set, array $prev_freq_itemset, $
     }, ARRAY_FILTER_USE_KEY);
 }
 
+function calculateDetail($freq_itemsets, $total_lineups, $chosen_hero)
+{
+    $new_freq_itemsets = $freq_itemsets;
+
+    foreach ($freq_itemsets as $freq_itemset_key => $freq_itemset) {
+        foreach ($freq_itemset as $heroes => $value) {
+            $new_freq_itemsets[$freq_itemset_key][$heroes] = [
+                'frequency' => $value,
+                'support' => $value / $total_lineups * 100,
+            ];
+
+            if ($freq_itemset_key > 0) {
+                if (!empty($chosen_hero)) {
+                    $pairs = array_values(array_diff(explode('+', $heroes), [$chosen_hero]));
+                    $confidence = $value / $freq_itemsets[0][$chosen_hero] * 100;
+
+                    $new_freq_itemsets[$freq_itemset_key][$heroes]['pairs'] = $pairs;
+                    $new_freq_itemsets[$freq_itemset_key][$heroes]['confidence'] = $confidence;
+                }
+            }
+        }
+    }
+
+    return $new_freq_itemsets;
+}
+
 /**
  * Apriori Algorithm
  * References:
@@ -163,8 +197,12 @@ function apriori(array $lineups, $chosen_hero = null, int $min_frequency = 2, $m
     for ($i = $counter; $i >= 0; $i--) {
         if (empty($freq_itemsets_filt[$i])) {
             unset($freq_itemsets_filt[$i]);
+        } else {
+            break;
         }
     }
+
+    $freq_itemsets_filt = calculateDetail($freq_itemsets_filt, $total_lineups, $chosen_hero);
 
     return $freq_itemsets_filt;
 }

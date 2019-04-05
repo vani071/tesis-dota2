@@ -27,16 +27,21 @@ class Apriori2Test extends TestCase
     public function testAutoChosenHero()
     {
         $result = apriori(['A, B, C', 'C,D'], '');
-        $this->assertEquals($result, [['C' => 2]]);
+        $this->assertEquals($result, [['C' => ['frequency' => 2, 'support' => 100]]]);
 
         $result = apriori(['A, B, C, D', 'C,D', 'D, E'], '');
         $this->assertEquals($result, [
             [
-                'C' => 2,
-                'D' => 3,
+                'C' => ['frequency' => 2, 'support' => 66.66666666666666],
+                'D' => ['frequency' => 3, 'support' => 100],
             ],
             [
-                'C+D' => 2,
+                'C+D' => [
+                    'pairs' => ['C'],
+                    'frequency' => 2,
+                    'support' => 66.66666666666666,
+                    'confidence' => 66.66666666666666
+                ],
             ],
         ]);
     }
@@ -60,14 +65,14 @@ class Apriori2Test extends TestCase
 
         $this->assertEquals($result, [
             [
-                'A' => 2,
-                'B' => 3,
-                'C' => 2,
-                'D' => 3,
+                'A' => ['frequency' => 2, 'support' => 50],
+                'B' => ['frequency' => 3, 'support' => 75],
+                'C' => ['frequency' => 2, 'support' => 50],
+                'D' => ['frequency' => 3, 'support' => 75],
             ],
             [
-                'A+C' => 2,
-                'B+D' => 2,
+                'A+C' => ['frequency' => 2, 'support' => 50],
+                'B+D' => ['frequency' => 2, 'support' => 50],
             ]
         ]);
     }
@@ -91,45 +96,45 @@ class Apriori2Test extends TestCase
 
         $this->assertEquals($result, [
             [
-                'A' => 5,
-                'B' => 3,
-                'C' => 5,
-                'D' => 4,
-                'E' => 2,
+                'A' => ['frequency' => 5, 'support' => 100],
+                'B' => ['frequency' => 3, 'support' => 60],
+                'C' => ['frequency' => 5, 'support' => 100],
+                'D' => ['frequency' => 4, 'support' => 80],
+                'E' => ['frequency' => 2, 'support' => 40],
             ],
             [
-                'A+B' => 3,
-                'A+C' => 5,
-                'A+D' => 4,
-                'A+E' => 2,
-                'B+C' => 3,
-                'B+D' => 2,
-                'C+D' => 4,
-                'C+E' => 2,
-                'D+E' => 2,
+                'A+B' => ['frequency' => 3, 'support' => 60],
+                'A+C' => ['frequency' => 5, 'support' => 100],
+                'A+D' => ['frequency' => 4, 'support' => 80],
+                'A+E' => ['frequency' => 2, 'support' => 40],
+                'B+C' => ['frequency' => 3, 'support' => 60],
+                'B+D' => ['frequency' => 2, 'support' => 40],
+                'C+D' => ['frequency' => 4, 'support' => 80],
+                'C+E' => ['frequency' => 2, 'support' => 40],
+                'D+E' => ['frequency' => 2, 'support' => 40],
             ],
             [
-                'A+B+C' => 3,
-                'A+B+D' => 2,
-                'A+C+D' => 4,
-                'A+C+E' => 2,
-                'A+D+E' => 2,
-                'B+C+D' => 2,
-                'C+D+E' => 2,
+                'A+B+C' => ['frequency' => 3, 'support' => 60],
+                'A+B+D' => ['frequency' => 2, 'support' => 40],
+                'A+C+D' => ['frequency' => 4, 'support' => 80],
+                'A+C+E' => ['frequency' => 2, 'support' => 40],
+                'A+D+E' => ['frequency' => 2, 'support' => 40],
+                'B+C+D' => ['frequency' => 2, 'support' => 40],
+                'C+D+E' => ['frequency' => 2, 'support' => 40],
             ],
             [
-                'A+B+C+D' => 2,
-                'A+C+D+E' => 2,
+                'A+B+C+D' => ['frequency' => 2, 'support' => 40],
+                'A+C+D+E' => ['frequency' => 2, 'support' => 40],
             ]
         ]);
     }
 
-    /**
-     * Reference: http://nikhilvithlani.blogspot.com/2012/03/apriori-algorithm-for-data-mining-made.html
-     * Note: items that repeat in one transaction are written once
-     *       Modified because we sort the item 'M+K' => 'K+M'
-     *       Minimum support: 60% ~ 3 frequency
-     */
+    // /**
+    //  * Reference: http://nikhilvithlani.blogspot.com/2012/03/apriori-algorithm-for-data-mining-made.html
+    //  * Note: items that repeat in one transaction are written once
+    //  *       Modified because we sort the item 'M+K' => 'K+M'
+    //  *       Minimum support: 60% ~ 3 frequency
+    //  */
     public function testNikhilVithlani()
     {
         $transactions = [
@@ -144,21 +149,21 @@ class Apriori2Test extends TestCase
 
         $this->assertEquals($result, [
             [
-                'M' => 3,
-                'O' => 3,
-                'K' => 5,
-                'E' => 4,
-                'Y' => 3,
+                'M' => ['frequency' => 3, 'support' => 60],
+                'O' => ['frequency' => 3, 'support' => 60],
+                'K' => ['frequency' => 5, 'support' => 100],
+                'E' => ['frequency' => 4, 'support' => 80],
+                'Y' => ['frequency' => 3, 'support' => 60],
             ],
             [
-                'E+K' => 4,
-                'E+O' => 3,
-                'K+M' => 3,
-                'K+O' => 3,
-                'K+Y' => 3,
+                'E+K' => ['frequency' => 4, 'support' => 80],
+                'E+O' => ['frequency' => 3, 'support' => 60],
+                'K+M' => ['frequency' => 3, 'support' => 60],
+                'K+O' => ['frequency' => 3, 'support' => 60],
+                'K+Y' => ['frequency' => 3, 'support' => 60],
             ],
             [
-                'E+K+O' => 3,
+                'E+K+O' => ['frequency' => 3, 'support' => 60],
             ]
         ]);
     }
@@ -177,25 +182,41 @@ class Apriori2Test extends TestCase
 
         $this->assertEquals($result, [
             [
-                'ABADDON'           => 5,
-                'BANE'              => 2,
-                'LEGION COMMANDER'  => 3,
-                'NECROPHOS'         => 2,
-                'PUDGE'             => 2,
-                'SHADOW FIEND'      => 2,
-                'WRAITH KING'       => 2,
+                'ABADDON'           => ['frequency' => 5, 'support' => 100],
+                'BANE'              => ['frequency' => 2, 'support' => 40],
+                'LEGION COMMANDER'  => ['frequency' => 3, 'support' => 60],
+                'NECROPHOS'         => ['frequency' => 2, 'support' => 40],
+                'PUDGE'             => ['frequency' => 2, 'support' => 40],
+                'SHADOW FIEND'      => ['frequency' => 2, 'support' => 40],
+                'WRAITH KING'       => ['frequency' => 2, 'support' => 40],
             ],
             [
-                'ABADDON+BANE'             => 2,
-                'ABADDON+LEGION COMMANDER' => 3,
-                'ABADDON+NECROPHOS'        => 2,
-                'ABADDON+PUDGE'            => 2,
-                'ABADDON+SHADOW FIEND'     => 2,
-                'ABADDON+WRAITH KING'      => 2,
+                'ABADDON+BANE' => [
+                    'pairs' => ['BANE'], 'frequency' => 2, 'support' => 40, 'confidence' => 40
+                ],
+                'ABADDON+LEGION COMMANDER' => [
+                    'pairs' => ['LEGION COMMANDER'], 'frequency' => 3, 'support' => 60, 'confidence' => 60
+                ],
+                'ABADDON+NECROPHOS' => [
+                    'pairs' => ['NECROPHOS'], 'frequency' => 2, 'support' => 40, 'confidence' => 40
+                ],
+                'ABADDON+PUDGE' => [
+                    'pairs' => ['PUDGE'], 'frequency' => 2, 'support' => 40, 'confidence' => 40
+                ],
+                'ABADDON+SHADOW FIEND' => [
+                    'pairs' => ['SHADOW FIEND'], 'frequency' => 2, 'support' => 40, 'confidence' => 40
+                ],
+                'ABADDON+WRAITH KING' => [
+                    'pairs' => ['WRAITH KING'], 'frequency' => 2, 'support' => 40, 'confidence' => 40
+                ],
             ],
             [
-                'ABADDON+BANE+SHADOW FIEND' => 2,
-                'ABADDON+NECROPHOS+WRAITH KING' => 2,
+                'ABADDON+BANE+SHADOW FIEND' => [
+                    'pairs' => ['BANE', 'SHADOW FIEND'], 'frequency' => 2, 'support' => 40, 'confidence' => 40
+                ],
+                'ABADDON+NECROPHOS+WRAITH KING' => [
+                    'pairs' => ['NECROPHOS', 'WRAITH KING'], 'frequency' => 2, 'support' => 40, 'confidence' => 40
+                ],
             ]
         ]);
     }
@@ -215,16 +236,18 @@ class Apriori2Test extends TestCase
 
         $this->assertEquals($result, [
             [
-                'ABADDON'           => 5,
-                'BANE'              => 2,
-                'LEGION COMMANDER'  => 3,
-                'NECROPHOS'         => 2,
-                'PUDGE'             => 2,
-                'SHADOW FIEND'      => 2,
-                'WRAITH KING'       => 2,
+                'ABADDON'           => ['frequency' => 5, 'support' => 100],
+                'BANE'              => ['frequency' => 2, 'support' => 40],
+                'LEGION COMMANDER'  => ['frequency' => 3, 'support' => 60],
+                'NECROPHOS'         => ['frequency' => 2, 'support' => 40],
+                'PUDGE'             => ['frequency' => 2, 'support' => 40],
+                'SHADOW FIEND'      => ['frequency' => 2, 'support' => 40],
+                'WRAITH KING'       => ['frequency' => 2, 'support' => 40],
             ],
             [
-                'ABADDON+LEGION COMMANDER' => 3,
+                'ABADDON+LEGION COMMANDER' => [
+                    'pairs' => ['ABADDON'], 'frequency' => 3, 'support' => 60, 'confidence' => 100
+                ],
             ]
         ]);
     }
