@@ -16,11 +16,11 @@
         </testsuite>
         <testsuite name="new">
             <file>testing/Apriori2Test.php</file>
-            <file>testing/FilterFrequentItemSetTest.php</file>
-            <file>testing/GetCandidateSetTest.php</file>
-            <file>testing/GetFirstFrequentItemSetTest.php</file>
-            <file>testing/GetFrequentItemSetTest.php</file>
-            <file>testing/PruneLastCandidateSetTest.php</file>
+            <!-- <file>testing/FilterFrequentItemSetTest.php</file> -->
+            <!-- <file>testing/GetCandidateSetTest.php</file> -->
+            <!-- <file>testing/GetFirstFrequentItemSetTest.php</file> -->
+            <!-- <file>testing/GetFrequentItemSetTest.php</file> -->
+            <!-- <file>testing/PruneLastCandidateSetTest.php</file> -->
         </testsuite>
     </testsuites>
     <logging>

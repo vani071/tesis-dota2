@@ -14,7 +14,7 @@ class Apriori2Test extends TestCase
         $result = apriori([], '', 199);
         $this->assertFalse($result);
 
-        $result = apriori(['A, B, C'], 'Z');
+        $result = apriori(['A, B, C', 'C,D'], 'Z');
         $this->assertFalse($result);
     }
 
@@ -135,6 +135,72 @@ class Apriori2Test extends TestCase
             ],
             [
                 'E+K+O' => 3,
+            ]
+        ]);
+    }
+
+    public function testWithChoosenHero()
+    {
+        $lineups = [
+            'OMNIKNIGHT, PUDGE, SPECTRE, LEGION COMMANDER, DISRUPTOR, MEDUSA, ABADDON, WRAITH KING, PUGNA, NECROPHOS',
+            'BANE, ABADDON, NYX ASSASSIN, SHADOW FIEND, NATURES PROPHET, WINTER WYVERN, INVOKER, PUDGE, SLARK, SPIRIT BREAKER',
+            'DEATH PROPHET, JUGGERNAUT, ABADDON, LION, FACELESS VOID, VIPER, NECROPHOS, BRISTLEBACK, MIRANA, WRAITH KING',
+            'ABADDON, SNIPER, BANE, QUEEN OF PAIN, LEGION COMMANDER, PHANTOM ASSASSIN, JAKIRO, TIDEHUNTER, SHADOW FIEND, CLOCKWERK',
+            'AXE, EARTHSHAKER, LEGION COMMANDER, KUNKKA, WINDRANGER, ABADDON, NAGA SIREN, DAZZLE, STORM SPIRIT, PHOENIX',
+        ];
+
+        $result = apriori($lineups, 'ABADDON', 2);
+
+        $this->assertEquals($result, [
+            [
+                'ABADDON'           => 5,
+                'BANE'              => 2,
+                'LEGION COMMANDER'  => 3,
+                'NECROPHOS'         => 2,
+                'PUDGE'             => 2,
+                'SHADOW FIEND'      => 2,
+                'WRAITH KING'       => 2,
+            ],
+            [
+                'ABADDON+BANE'             => 2,
+                'ABADDON+LEGION COMMANDER' => 3,
+                'ABADDON+NECROPHOS'        => 2,
+                'ABADDON+PUDGE'            => 2,
+                'ABADDON+SHADOW FIEND'     => 2,
+                'ABADDON+WRAITH KING'      => 2,
+            ],
+            [
+                'ABADDON+BANE+SHADOW FIEND' => 2,
+                'ABADDON+NECROPHOS+WRAITH KING' => 2,
+            ]
+        ]);
+    }
+
+
+    public function testWithChoosenHero2()
+    {
+        $lineups = [
+            'OMNIKNIGHT, PUDGE, SPECTRE, LEGION COMMANDER, DISRUPTOR, MEDUSA, ABADDON, WRAITH KING, PUGNA, NECROPHOS',
+            'BANE, ABADDON, NYX ASSASSIN, SHADOW FIEND, NATURES PROPHET, WINTER WYVERN, INVOKER, PUDGE, SLARK, SPIRIT BREAKER',
+            'DEATH PROPHET, JUGGERNAUT, ABADDON, LION, FACELESS VOID, VIPER, NECROPHOS, BRISTLEBACK, MIRANA, WRAITH KING',
+            'ABADDON, SNIPER, BANE, QUEEN OF PAIN, LEGION COMMANDER, PHANTOM ASSASSIN, JAKIRO, TIDEHUNTER, SHADOW FIEND, CLOCKWERK',
+            'AXE, EARTHSHAKER, LEGION COMMANDER, KUNKKA, WINDRANGER, ABADDON, NAGA SIREN, DAZZLE, STORM SPIRIT, PHOENIX',
+        ];
+
+        $result = apriori($lineups, 'LEGION COMMANDER', 2);
+
+        $this->assertEquals($result, [
+            [
+                'ABADDON'           => 5,
+                'BANE'              => 2,
+                'LEGION COMMANDER'  => 3,
+                'NECROPHOS'         => 2,
+                'PUDGE'             => 2,
+                'SHADOW FIEND'      => 2,
+                'WRAITH KING'       => 2,
+            ],
+            [
+                'ABADDON+LEGION COMMANDER' => 3,
             ]
         ]);
     }
