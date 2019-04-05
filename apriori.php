@@ -41,7 +41,7 @@ function getFrequentItemSet(array $candidate_set, array $lineups)
     return $candidate_set;
 }
 
-function getCandidateSet(array $prev_freq_itemset)
+function getCandidateSet(array $prev_freq_itemset, string $chosen_hero = null)
 {
     $total_previous_items = count($prev_freq_itemset);
     $candidate_set = [];
@@ -122,7 +122,7 @@ function apriori(array $lineups, string $chosen_hero = null, $min_frequency = 1,
     $freq_itemsets[$counter] = getFirstFrequentItemSet($lineups);
     $freq_itemsets_filt[$counter] = filterFrequentItemSet($freq_itemsets[$counter], $min_frequency);
 
-    if (!is_null($chosen_hero) && !isset($freq_itemsets[$chosen_hero])) {
+    if (!empty($chosen_hero) && !isset($freq_itemsets[$chosen_hero])) {
         return false;
     }
 
@@ -136,7 +136,7 @@ function apriori(array $lineups, string $chosen_hero = null, $min_frequency = 1,
         // echo "Counter: {$counter}\n";
         $counter++;
 
-        $candidate_set = getCandidateSet($freq_itemsets_filt[$counter - 1]);
+        $candidate_set = getCandidateSet($freq_itemsets_filt[$counter - 1], $chosen_hero);
         $candidate_set = pruneLastCandidateSet($candidate_set, $freq_itemsets[$counter - 1], $min_frequency);
         $freq_itemsets[$counter] = getFrequentItemSet($candidate_set, $lineups);
         $freq_itemsets_filt[$counter] = filterFrequentItemSet($freq_itemsets[$counter], $min_frequency);
