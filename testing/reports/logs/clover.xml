@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1554507358">
-  <project timestamp="1554507358">
+<coverage generated="1554508211">
+  <project timestamp="1554508211">
     <file name="D:\Documents\Discuss\Vani Ahmad Ramadhan\tesis\apriori.php">
       <line num="4" type="stmt" count="6"/>
       <line num="6" type="stmt" count="6"/>
@@ -73,29 +73,32 @@
       <line num="168" type="stmt" count="8"/>
       <line num="169" type="stmt" count="8"/>
       <line num="170" type="stmt" count="8"/>
-      <line num="172" type="stmt" count="8"/>
-      <line num="173" type="stmt" count="1"/>
-      <line num="176" type="stmt" count="8"/>
+      <line num="171" type="stmt" count="8"/>
+      <line num="173" type="stmt" count="8"/>
+      <line num="174" type="stmt" count="1"/>
       <line num="177" type="stmt" count="8"/>
-      <line num="179" type="stmt" count="8"/>
+      <line num="178" type="stmt" count="8"/>
       <line num="180" type="stmt" count="8"/>
-      <line num="181" type="stmt" count="2"/>
-      <line num="184" type="stmt" count="6"/>
-      <line num="185" type="stmt" count="1"/>
-      <line num="188" type="stmt" count="6"/>
+      <line num="181" type="stmt" count="8"/>
+      <line num="182" type="stmt" count="2"/>
+      <line num="185" type="stmt" count="6"/>
+      <line num="186" type="stmt" count="1"/>
       <line num="189" type="stmt" count="6"/>
-      <line num="191" type="stmt" count="6"/>
+      <line num="190" type="stmt" count="6"/>
       <line num="192" type="stmt" count="6"/>
       <line num="193" type="stmt" count="6"/>
       <line num="194" type="stmt" count="6"/>
-      <line num="197" type="stmt" count="6"/>
+      <line num="195" type="stmt" count="6"/>
       <line num="198" type="stmt" count="6"/>
       <line num="199" type="stmt" count="6"/>
-      <line num="201" type="stmt" count="6"/>
-      <line num="205" type="stmt" count="6"/>
-      <line num="207" type="stmt" count="6"/>
-      <metrics loc="208" ncloc="190" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="92" coveredstatements="92" elements="92" coveredelements="92"/>
+      <line num="200" type="stmt" count="6"/>
+      <line num="202" type="stmt" count="6"/>
+      <line num="206" type="stmt" count="6"/>
+      <line num="208" type="stmt" count="6"/>
+      <line num="209" type="stmt" count="5"/>
+      <line num="211" type="stmt" count="1"/>
+      <metrics loc="213" ncloc="195" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="95" coveredstatements="95" elements="95" coveredelements="95"/>
     </file>
-    <metrics files="1" loc="208" ncloc="190" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="92" coveredstatements="92" elements="92" coveredelements="92"/>
+    <metrics files="1" loc="213" ncloc="195" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="95" coveredstatements="95" elements="95" coveredelements="95"/>
   </project>
 </coverage>

@@ -168,6 +168,7 @@ function apriori(array $lineups, $chosen_hero = null, int $min_frequency = 2, $m
     $freq_itemsets = [];
     $freq_itemsets_filt = []; // frequent_item_filtered
     $total_lineups = count($lineups);
+    $chosen_hero_param = $chosen_hero;
 
     if ($total_lineups == 0 || $min_frequency < 2 || $min_frequency > $total_lineups) {
         return false;
@@ -204,5 +205,9 @@ function apriori(array $lineups, $chosen_hero = null, int $min_frequency = 2, $m
 
     $freq_itemsets_filt = calculateDetail($freq_itemsets_filt, $total_lineups, $chosen_hero);
 
-    return $freq_itemsets_filt;
+    if (is_null($chosen_hero_param) || !empty($chosen_hero_param)) {
+        return $freq_itemsets_filt;
+    } else {
+        return ['chosen_hero' => $chosen_hero, 'frequent_itemsets' => $freq_itemsets_filt];
+    }
 }

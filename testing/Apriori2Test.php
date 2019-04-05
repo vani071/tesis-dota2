@@ -24,25 +24,31 @@ class Apriori2Test extends TestCase
         $this->assertFalse($result);
     }
 
-    public function testAutoChosenHero()
+    public function testAutoChooseHero()
     {
         $result = apriori(['A, B, C', 'C,D'], '');
-        $this->assertEquals($result, [['C' => ['frequency' => 2, 'support' => 100]]]);
+        $this->assertEquals($result, [
+            'chosen_hero' => 'C',
+            'frequent_itemsets' => [['C' => ['frequency' => 2, 'support' => 100]]],
+        ]);
 
         $result = apriori(['A, B, C, D', 'C,D', 'D, E'], '');
         $this->assertEquals($result, [
-            [
-                'C' => ['frequency' => 2, 'support' => 66.66666666666666],
-                'D' => ['frequency' => 3, 'support' => 100],
-            ],
-            [
-                'C+D' => [
-                    'pairs' => ['C'],
-                    'frequency' => 2,
-                    'support' => 66.66666666666666,
-                    'confidence' => 66.66666666666666
+            'chosen_hero' => 'D',
+            'frequent_itemsets' => [
+                [
+                    'C' => ['frequency' => 2, 'support' => 66.66666666666666],
+                    'D' => ['frequency' => 3, 'support' => 100],
                 ],
-            ],
+                [
+                    'C+D' => [
+                        'pairs' => ['C'],
+                        'frequency' => 2,
+                        'support' => 66.66666666666666,
+                        'confidence' => 66.66666666666666
+                    ],
+                ],
+            ]
         ]);
     }
 
