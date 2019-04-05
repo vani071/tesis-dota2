@@ -18,6 +18,30 @@ class Apriori2Test extends TestCase
         $this->assertFalse($result);
     }
 
+    public function testAllItemFrequencySmallerThanMinimum()
+    {
+        $result = apriori(['A, B, C', 'D,E'], '', 2);
+        $this->assertFalse($result);
+    }
+
+    public function testAutoChosenHero()
+    {
+        $result = apriori(['A, B, C', 'C,D'], '');
+        $this->assertEquals($result, [['C' => 2]]);
+
+        $result = apriori(['A, B, C, D', 'C,D', 'D, E'], '');
+        $this->assertEquals($result, [
+            [
+                'C' => 2,
+                'D' => 3,
+            ],
+            [
+                'C+D' => 2,
+            ],
+        ]);
+    }
+
+
     /**
      * From Example 1 at http://www2.cs.uregina.ca/~dbd/cs831/notes/itemsets/itemset_apriori.html
      * Minimum Support: 50% ~ Minimum Frequency: 50% of 4 = 2

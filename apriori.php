@@ -112,7 +112,23 @@ function pruneLastCandidateSet(array $candidate_set, array $prev_freq_itemset, $
     }, ARRAY_FILTER_USE_KEY);
 }
 
-function apriori(array $lineups, string $chosen_hero = null, int $min_frequency = 2, $max_counter = INF)
+/**
+ * Apriori Algorithm
+ * References:
+ *      http://nikhilvithlani.blogspot.com/2012/03/apriori-algorithm-for-data-mining-made.html
+ *      http://nikhilvithlani.blogspot.com/2013/07/apriori-algorithm-for-data-mining-made.html
+ *      http://www2.cs.uregina.ca/~dbd/cs831/notes/itemsets/itemset_apriori.html
+ *
+ * @param mixed $chosen_hero Optional
+ *                           If null, then find most frequent combination.
+ *                           If empty string, then use most used hero.
+ *
+ * @param int   $min_frequency Optional
+ *                             Min Frequency ~ Min Support * Total lineups (transactions)
+ *
+ * @param int   $max_counter Optional. Maximum Iteration of the algorithm
+ */
+function apriori(array $lineups, $chosen_hero = null, int $min_frequency = 2, $max_counter = INF)
 {
     $counter = 0;
     $freq_itemsets = [];
@@ -126,8 +142,13 @@ function apriori(array $lineups, string $chosen_hero = null, int $min_frequency 
     $freq_itemsets[$counter] = getFirstFrequentItemSet($lineups);
     $freq_itemsets_filt[$counter] = filterFrequentItemSet($freq_itemsets[$counter], $min_frequency);
 
-    if (!empty($chosen_hero) && !isset($freq_itemsets[$counter][$chosen_hero])) {
+    $is_chosen_hero_not_exist = !empty($chosen_hero) && !isset($freq_itemsets_filt[$counter][$chosen_hero]);
+    if (empty($freq_itemsets_filt[$counter]) || $is_chosen_hero_not_exist) {
         return false;
+    }
+
+    if ($chosen_hero === '') {
+        $chosen_hero = array_search(max($freq_itemsets_filt[$counter]), $freq_itemsets_filt[$counter]);
     }
 
     while ($counter < $max_counter && !empty($freq_itemsets_filt[$counter])) {
