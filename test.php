@@ -5,7 +5,7 @@ ini_set('memory_limit', -1);
 include_once __DIR__ . '/apriori.php';
 
 $lineups = file('data.txt', FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES);
-$lineups = array_slice($lineups, 0, 100);
+$lineups = array_slice($lineups, 0, 10);
 echo 'The script is now using: ' . round(memory_get_usage() / 1024) . "KB of memory.\n";
 
 $start_time = microtime(true);

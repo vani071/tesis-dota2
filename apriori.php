@@ -133,7 +133,7 @@ function apriori(array $lineups, string $chosen_hero = null, $min_frequency = 1,
             break;
         }
 
-        echo "Counter: {$counter}\n";
+        // echo "Counter: {$counter}\n";
         $counter++;
 
         $candidate_set = getCandidateSet($freq_itemsets_filt[$counter - 1]);
