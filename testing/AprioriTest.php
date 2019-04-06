@@ -14,25 +14,27 @@ class AprioriTest extends TestCase
         $result = apriori([], '', 199);
         $this->assertFalse($result);
 
-        $result = apriori(['A, B, C', 'C,D'], 'Z');
+        $result = apriori(['A, B, C,', 'C,D,'], 'Z');
         $this->assertFalse($result);
     }
 
     public function testAllItemFrequencySmallerThanMinimum()
     {
-        $result = apriori(['A, B, C', 'D,E'], '', 2);
+        $result = apriori(['A, B, C,', 'D,E,'], '', 2);
         $this->assertFalse($result);
     }
 
     public function testAutoChooseHero()
     {
-        $result = apriori(['A, B, C', 'C,D'], '');
+        $result = apriori(['A, B, C,', 'C,D,'], '');
+
         $this->assertEquals($result, [
             'chosen_hero' => 'C',
             'frequent_itemsets' => [['C' => ['frequency' => 2, 'support' => 100]]],
         ]);
 
-        $result = apriori(['A, B, C, D', 'C,D', 'D, E'], '');
+        $result = apriori(['A, B, C, D,', 'C,D,', 'D, E,'], '');
+
         $this->assertEquals($result, [
             'chosen_hero' => 'D',
             'frequent_itemsets' => [
@@ -61,13 +63,15 @@ class AprioriTest extends TestCase
     public function testRegina1()
     {
         $transactions = [
-            'A,C,D',
-            'B,D',
-            'A,B,C,E',
-            'B,D,F',
+            'A,C,D,',
+            'B,D,',
+            'A,B,C,E,',
+            'B,D,F,',
         ];
 
         $result = apriori($transactions, null, 2);
+
+        // var_dump($result);
 
         $this->assertEquals($result, [
             [
@@ -91,11 +95,11 @@ class AprioriTest extends TestCase
     public function testRegina2()
     {
         $transactions = [
-            'A,B,C',
-            'A,B,C,D,E',
-            'A,C,D',
-            'A,C,D,E',
-            'A,B,C,D',
+            'A,B,C,',
+            'A,B,C,D,E,',
+            'A,C,D,',
+            'A,C,D,E,',
+            'A,B,C,D,',
         ];
 
         $result = apriori($transactions, null, 2);
@@ -144,11 +148,11 @@ class AprioriTest extends TestCase
     public function testNikhilVithlani()
     {
         $transactions = [
-            'M, O, N, K, E, Y',
-            'D, O, N, K, E, Y',
-            'M, A, K, E',
-            'M, U, C, K, Y',
-            'C, O, K, I, E',
+            'M, O, N, K, E, Y,',
+            'D, O, N, K, E, Y,',
+            'M, A, K, E,',
+            'M, U, C, K, Y,',
+            'C, O, K, I, E,',
         ];
 
         $result = apriori($transactions, null, 3);
@@ -177,11 +181,11 @@ class AprioriTest extends TestCase
     public function testWithChoosenHero()
     {
         $lineups = [
-            'OMNIKNIGHT, PUDGE, SPECTRE, LEGION COMMANDER, DISRUPTOR, MEDUSA, ABADDON, WRAITH KING, PUGNA, NECROPHOS',
-            'BANE, ABADDON, NYX ASSASSIN, SHADOW FIEND, NATURES PROPHET, WINTER WYVERN, INVOKER, PUDGE, SLARK, SPIRIT BREAKER',
-            'DEATH PROPHET, JUGGERNAUT, ABADDON, LION, FACELESS VOID, VIPER, NECROPHOS, BRISTLEBACK, MIRANA, WRAITH KING',
-            'ABADDON, SNIPER, BANE, QUEEN OF PAIN, LEGION COMMANDER, PHANTOM ASSASSIN, JAKIRO, TIDEHUNTER, SHADOW FIEND, CLOCKWERK',
-            'AXE, EARTHSHAKER, LEGION COMMANDER, KUNKKA, WINDRANGER, ABADDON, NAGA SIREN, DAZZLE, STORM SPIRIT, PHOENIX',
+            'OMNIKNIGHT, PUDGE, SPECTRE, LEGION COMMANDER, DISRUPTOR, MEDUSA, ABADDON, WRAITH KING, PUGNA, NECROPHOS,',
+            'BANE, ABADDON, NYX ASSASSIN, SHADOW FIEND, NATURES PROPHET, WINTER WYVERN, INVOKER, PUDGE, SLARK, SPIRIT BREAKER,',
+            'DEATH PROPHET, JUGGERNAUT, ABADDON, LION, FACELESS VOID, VIPER, NECROPHOS, BRISTLEBACK, MIRANA, WRAITH KING,',
+            'ABADDON, SNIPER, BANE, QUEEN OF PAIN, LEGION COMMANDER, PHANTOM ASSASSIN, JAKIRO, TIDEHUNTER, SHADOW FIEND, CLOCKWERK,',
+            'AXE, EARTHSHAKER, LEGION COMMANDER, KUNKKA, WINDRANGER, ABADDON, NAGA SIREN, DAZZLE, STORM SPIRIT, PHOENIX,',
         ];
 
         $result = apriori($lineups, 'ABADDON', 2);
@@ -231,11 +235,11 @@ class AprioriTest extends TestCase
     public function testWithChoosenHero2()
     {
         $lineups = [
-            'OMNIKNIGHT, PUDGE, SPECTRE, LEGION COMMANDER, DISRUPTOR, MEDUSA, ABADDON, WRAITH KING, PUGNA, NECROPHOS',
-            'BANE, ABADDON, NYX ASSASSIN, SHADOW FIEND, NATURES PROPHET, WINTER WYVERN, INVOKER, PUDGE, SLARK, SPIRIT BREAKER',
-            'DEATH PROPHET, JUGGERNAUT, ABADDON, LION, FACELESS VOID, VIPER, NECROPHOS, BRISTLEBACK, MIRANA, WRAITH KING',
-            'ABADDON, SNIPER, BANE, QUEEN OF PAIN, LEGION COMMANDER, PHANTOM ASSASSIN, JAKIRO, TIDEHUNTER, SHADOW FIEND, CLOCKWERK',
-            'AXE, EARTHSHAKER, LEGION COMMANDER, KUNKKA, WINDRANGER, ABADDON, NAGA SIREN, DAZZLE, STORM SPIRIT, PHOENIX',
+            'OMNIKNIGHT, PUDGE, SPECTRE, LEGION COMMANDER, DISRUPTOR, MEDUSA, ABADDON, WRAITH KING, PUGNA, NECROPHOS,',
+            'BANE, ABADDON, NYX ASSASSIN, SHADOW FIEND, NATURES PROPHET, WINTER WYVERN, INVOKER, PUDGE, SLARK, SPIRIT BREAKER,',
+            'DEATH PROPHET, JUGGERNAUT, ABADDON, LION, FACELESS VOID, VIPER, NECROPHOS, BRISTLEBACK, MIRANA, WRAITH KING,',
+            'ABADDON, SNIPER, BANE, QUEEN OF PAIN, LEGION COMMANDER, PHANTOM ASSASSIN, JAKIRO, TIDEHUNTER, SHADOW FIEND, CLOCKWERK,',
+            'AXE, EARTHSHAKER, LEGION COMMANDER, KUNKKA, WINDRANGER, ABADDON, NAGA SIREN, DAZZLE, STORM SPIRIT, PHOENIX,',
         ];
 
         $result = apriori($lineups, 'LEGION COMMANDER', 2);

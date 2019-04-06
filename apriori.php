@@ -3,16 +3,18 @@
 function countCombinationInLineups(string $combination, array $lineups) {
     $count = 0;
 
-    foreach ($lineups as $lineup) {
-        $heroes = explode('+', $combination);
-        $is_found = true;
+    if (!empty($combination)) {
+        foreach ($lineups as $lineup) {
+            $heroes = explode('+', $combination);
+            $is_found = true;
 
-        foreach ($heroes as $hero) {
-            $is_found &= (strpos($lineup, $hero) !== false);
-        }
+            foreach ($heroes as $hero) {
+                $is_found &= (strpos($lineup, "{$hero},") !== false);
+            }
 
-        if ($is_found) {
-            $count++;
+            if ($is_found) {
+                $count++;
+            }
         }
     }
 
@@ -27,11 +29,13 @@ function getFirstFrequentItemSet(array $lineups)
         $heroes = array_unique(array_map('trim', explode(',', $lineup)));
 
         foreach ($heroes as $hero) {
-            if (!isset($frequent_itemset[$hero])) {
-                $frequent_itemset[$hero] = 0;
-            }
+            if (!empty($hero)) {
+                if (!isset($frequent_itemset[$hero])) {
+                    $frequent_itemset[$hero] = 0;
+                }
 
-            $frequent_itemset[$hero]++;
+                $frequent_itemset[$hero]++;
+            }
         }
     }
 
@@ -103,12 +107,18 @@ function pruneLastCandidateSet(array $candidate_set, array $prev_freq_itemset, $
     });
 
     return array_filter($candidate_set, function ($key) use ($unfrequent_itemset) {
+        $key_heroes = explode('+', $key);
+
         foreach (array_keys($unfrequent_itemset) as $heroes) {
             $heroes = explode('+', $heroes);
             $is_found = true;
 
             foreach ($heroes as $hero) {
-                $is_found &= (strpos($key, $hero) !== false);
+                $is_found_nest = false;
+                foreach ($key_heroes as $key_hero) {
+                    $is_found_nest |= $hero == $key_hero;
+                }
+                $is_found &= $is_found_nest;
             }
 
             if ($is_found) {

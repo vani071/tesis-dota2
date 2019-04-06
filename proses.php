@@ -6,7 +6,7 @@
 	include_once "apriori.php";
 
 	const DISPLAYED_RESULT = 10;
-	const MINIMUM_FREQUENCY = 5;
+	const MINIMUM_FREQUENCY = 2;
 
 	$inputan = $_GET["inputhero"];
 	$good_heroes = [];
@@ -14,7 +14,7 @@
     $lineups = file('data.txt',FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES);
 	$linecount = count($lineups);
 
-	$result = apriori($lineups, $inputan, MINIMUM_FREQUENCY);
+	$result = apriori($lineups, $inputan, MINIMUM_FREQUENCY, 1);
 
 	if ($inputan =='') {
 		$inputan = $result['chosen_hero'];
