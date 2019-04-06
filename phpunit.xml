@@ -6,21 +6,10 @@
          convertNoticesToExceptions="true"
          convertWarningsToExceptions="true"
          processIsolation="false"
-         defaultTestSuite="new"
          stopOnFailure="false">
     <testsuites>
-        <testsuite name="old">
-            <file>testing/AprioriTest.php</file>
-            <file>testing/CalculateHeroFrequencyTest.php</file>
-            <file>testing/CountHeroCombinationTest.php</file>
-        </testsuite>
-        <testsuite name="new">
-            <file>testing/Apriori2Test.php</file>
-            <!-- <file>testing/FilterFrequentItemSetTest.php</file> -->
-            <!-- <file>testing/GetCandidateSetTest.php</file> -->
-            <!-- <file>testing/GetFirstFrequentItemSetTest.php</file> -->
-            <!-- <file>testing/GetFrequentItemSetTest.php</file> -->
-            <!-- <file>testing/PruneLastCandidateSetTest.php</file> -->
+        <testsuite name="Unit">
+            <directory suffix="Test.php">./testing</directory>
         </testsuite>
     </testsuites>
     <logging>
@@ -29,7 +18,6 @@
     </logging>
     <filter>
         <whitelist processUncoveredFilesFromWhitelist="true">
-            <!-- <file>functions.php</file> -->
             <file>apriori.php</file>
             <exclude>
                 <directory>ExternalLibraries</directory>
