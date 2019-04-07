@@ -8653,9 +8653,9 @@ To get the required data, Valve as a DOTA 2 game developer provides data
 \begin_layout Standard
 There is even information about the match that has just finished in realtime,
  so dotabuff.com can be a good source of match data to be able to be reprocessed.
- By using data mining methods that are implemented into a web application,
- a special page is created to input data manually or automatically using
- OpenAPI
+ By using the data mining method that is implemented into a web application
+ that will process the data which has been collected to assist in determining
+ marketing strategies for hero sets items
 \end_layout
 
 \begin_layout Standard
