@@ -1,0 +1,9584 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass book
+\begin_preamble
+%% \renewcommand{\chapter}[1]{\chapter[#1]{\centering #1}}
+\usepackage{titlesec}
+\usepackage{graphicx}
+\usepackage{listings}
+\usepackage{textcomp}
+\lstdefinestyle{php}{basicstyle=\ttfamily\scriptsize}
+
+\titleformat{\chapter}[display]
+  {\normalfont\huge\bfseries\centering}{\chaptertitlename\ \thechapter}{14pt}{\Huge}
+%%-------------
+\newcommand{\Judul}{Factors Affecting Consumer Acceptance of Transportation Service Application in Jakarta : Using Extended UTAUT and Structural Equation Modeling}
+\newcommand{\JudulInggris}{Undergraduate English Title}
+\newcommand{\Penulis}{Vani Ahmad Ramadhan, S.Kom}
+\newcommand{\NIRM}{92215023}
+\newcommand{\JenisTulisan}{Undergraduate Thesis}
+\newcommand{\Gelar}{Jenjang S1 / Sarjana Strata Satu}
+\newcommand{\Fakultas}{Computer Science and Information Technology }
+\newcommand{\Jurusan}{Information System}
+%%-------------
+\newcommand{\Prodi}{}
+\newcommand{\Tahun}{2015}
+\newcommand{\Bulan}{March}
+\newcommand{\Tanggal}{20th}
+\newcommand{\Kota}{Jakarta}
+%%-------------
+\newcommand{\KataKunci}{AHP Method, DKI Jakarta,  Category and Criterion, Tourism, Tourist Destination}
+\newcommand{\KeyWords}{AHP Method, DKI Jakarta,  Category and Criterion, Tourism, Tourist Destination}
+%%-------------
+\newcommand{\KoordinatorPI}{}
+%%-------------
+\newcommand{\DosenPembimbing}{Dr. Setia Wirawan, S.Kom., MMSI}
+%%-------------
+\newcommand{\KetuaJurusan}{Dr. Setia Wirawan, S.Kom., MMSI}
+\newcommand{\KetuaPembimbing}{Dr. Setia Wirawan, S.Kom., MMSI}
+\newcommand{\AnggotaPembimbingA}{Dr. Ana Kurniawati, ST., MMSI}
+\newcommand{\AnggotaPembimbingB}{Dr. Riza Adrianti Supono, S.Kom., MMSI}
+%%------------
+\newcommand{\KetuaUjian}{Dr. Ravi Ahmad Salim}
+\newcommand{\SekUjian}{Prof. Dr. Wahyudi Priyono}
+\newcommand{\AnggotaUjianA}{Dr. Setia Wirawan, S.Kom., MMSI}
+\newcommand{\AnggotaUjianB}{Dr. Ana Kurniawati, ST., MMSI}
+\newcommand{\AnggotaUjianC}{Dr. Riza Adrianti Supono, S.Kom., MMSI}
+%%-------------
+\newcommand{\Ringkasan}{Tulis ringkasan skripsi, pi, atau apa dengan bahasa yang jelas, lugas dan menggambarkan secara singkat tulisan ini.  Sebaiknya tidak lebih dari 150 kata dan sudah menjelaskan dari permasalahan, pembahasan dan penutup.}
+\newcommand{\JumlahPustaka}{49}
+\newcommand{\JumlahHalaman}{131}
+\newcommand{\JumlahHalamanDepan}{14}
+\newcommand{\TahunPustaka}{1978-2014}
+%%
+%% Keterangan administratif sidang sarjana
+%%
+\newcommand{\TanggalSidang}{March, 20th 2015}
+\newcommand{\TanggalLulus}{March, 20th 2015}
+\newcommand{\TanggalSah}{2015}
+\newcommand{\PejabatBagianSidang}{Dr. Edi Sukirman, MM}
+\setlength{\headheight}{15pt}
+%%-------------
+%%
+%%Untuk Kata pengantar
+%%
+\newcommand{\Rektor}{Prof. Dr. Hj. E.S. Margianti, SE., MM}
+\newcommand{\Dekan}{Prof. Dr.rer.nat. A. Benny Mutiara, SSi., SKom.}
+\newcommand{\KotaPenulis}{Jakarta}
+\newcommand{\BlnThn}{March 2015}
+%%-----------
+%%-----------
+% The following commands set the page numbers on the top right
+% except in the beginning of chapters
+\lhead{}
+\chead{}
+\rhead{\thepage}
+\lfoot{}
+\cfoot{}
+\rfoot{}
+\renewcommand{\headrulewidth}{0pt}
+
+
+% -----------
+% -----------
+% The following commands set the apendix (coding)
+% More info contact SMSI01 crew to get tutorial in pdf format
+
+\lstset {
+upquote=true, 
+basicstyle=\footnotesize, 
+frame=lines, 
+tabsize=4, 
+numbers=left, 
+numberstyle=\tiny, 
+tabsize=2, 
+captionpos=t, 
+breaklines=true, 
+showstringspaces=false,
+%showspaces=false, 
+%breakatwhitespace=false, 
+escapeinside={\%*}{*)}
+}
+\end_preamble
+\use_default_options true
+\begin_modules
+theorems-ams
+eqs-within-sections
+enumitem
+\end_modules
+\maintain_unincluded_children false
+\language american
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "charter" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\float_placement H
+\paperfontsize 12
+\spacing onehalf
+\use_hyperref false
+\pdf_bookmarks false
+\pdf_bookmarksnumbered false
+\pdf_bookmarksopen false
+\pdf_bookmarksopenlevel 1
+\pdf_breaklinks false
+\pdf_pdfborder true
+\pdf_colorlinks false
+\pdf_backref section
+\pdf_pdfusetitle false
+\papersize a4paper
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine natbib
+\cite_engine_type authoryear
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 0
+\use_minted 0
+\index Indeks
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 4cm
+\topmargin 3cm
+\rightmargin 3cm
+\bottommargin 3cm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle fancy
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+input{made-hypen.tex} 
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+sloppy 
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+thispagestyle{empty}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+addcontentsline{toc}{chapter}{Title Page}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+pagenumbering{roman}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+vspace*{10mm}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Separator latexpar
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+\size larger
+\lang english
+QUALITY ASSESSMENT ON MOBILE SHOPPING APPLICATIONS USING ISO/IEC 25010 QUALITY
+ MODEL 
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+\size larger
+\lang english
+(CASE STUDY: LAZADA MOBILE APPS)
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+vspace*{12mm}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Separator latexpar
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename LogoGunadarma.jpg
+	width 40mm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+vspace*{1cm}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Separator latexpar
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="3" columns="1">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="middle" width="13cm">
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\align center
+Written by:
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\align center
+
+\lang english
+\begin_inset Tabular
+<lyxtabular version="3" rows="3" columns="3">
+<features tabularvalignment="middle">
+<column alignment="left" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="left" valignment="top">
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Name
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+:
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+Penulis
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+NIRM
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+:
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+NIRM
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Supervisor
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+:
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+DosenPembimbing
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+ 
+\backslash
+vspace*{7mm}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Separator latexpar
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+\size larger
+POSTGRADUATE PROGRAM
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+\size larger
+GUNADARMA UNIVERSITY
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+\size larger
+JAKARTA 
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+\size larger
+2016
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+newpage
+\end_layout
+
+\end_inset
+
+
+\begin_inset Separator latexpar
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\size larger
+\lang english
+FACTORS AFFECTING CONSUMER ACCEPTANCE OF TRANSPORTATION SERVICES APPLICATION
+ IN JAKARTA : USING EXTENDED UTAUT AND STRUCTURAL EQUATION MODELING
+\end_layout
+
+\begin_layout Standard
+
+\lang english
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+vspace*{11mm}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Separator latexpar
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="2" columns="1">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="middle" width="13cm">
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\align center
+Written by:
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\align center
+
+\lang english
+\begin_inset Tabular
+<lyxtabular version="3" rows="1" columns="3">
+<features tabularvalignment="middle">
+<column alignment="left" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="left" valignment="top">
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Name
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+:
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+Penulis
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+vspace*{7mm}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Separator latexpar
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\size large
+THESIS
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+vspace*{5mm}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Separator latexpar
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+Submitted as a partial fulllment of the Requirements for Master Degree of
+ Information System Management Concentrating on Business Information System
+ Gunadarma University 
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+ 
+\backslash
+vspace*{15mm}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Separator latexpar
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+\size larger
+POSTGRADUATE PROGRAM
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+\size larger
+GUNADARMA UNIVERSITY
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+\size larger
+JAKARTA 
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+\size larger
+2016
+\end_layout
+
+\begin_layout Chapter*
+
+\lang english
+PAGE OF APPROVAL
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing single
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+addcontentsline{toc}{chapter}{Page of Approval}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing single
+
+\lang english
+\begin_inset Tabular
+<lyxtabular version="3" rows="3" columns="3">
+<features tabularvalignment="middle">
+<column alignment="left" valignment="top" width="55mm">
+<column alignment="center" valignment="top">
+<column alignment="left" valignment="top" width="60text%">
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Title
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+:
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+Judul
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+NPM
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+:
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+NIRM
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Date of Graduation
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+:
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+TanggalSidang
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\begin_inset Separator latexpar
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\lang english
+Approved by:
+\end_layout
+
+\begin_layout Standard
+
+\lang english
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+vspace*{1mm}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Separator latexpar
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+Board of Advisors
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+vspace*{7mm}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Separator latexpar
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+.......................................
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+DosenPembimbing
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+(Chair Person)
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+vspace*{7mm}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Separator latexpar
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+.......................................
+\end_layout
+
+\begin_layout Standard
+\align center
+(Member)
+\end_layout
+
+\begin_layout Chapter*
+
+\lang english
+ABSTRACT
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing single
+
+\lang english
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+addcontentsline{toc}{chapter}{Abstract}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing single
+
+\lang english
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+noindent
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+Penulis
+\end_layout
+
+\end_inset
+
+.
+ 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+NIRM
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing single
+
+\lang english
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+noindent
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+MakeUppercase{
+\backslash
+Judul}
+\end_layout
+
+\end_inset
+
+.
+ 
+\begin_inset Newline newline
+\end_inset
+
+Bachelor's Thesis, 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+Fakultas
+\end_layout
+
+\end_inset
+
+ Department, Faculty of 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+ 
+\backslash
+Jurusan
+\end_layout
+
+\end_inset
+
+, Gunadarma University, 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+Tahun
+\end_layout
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing single
+
+\lang english
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+noindent
+\end_layout
+
+\end_inset
+
+ Key words : 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+KataKunci
+\end_layout
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing single
+
+\lang english
+\begin_inset VSpace medskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing single
+
+\lang english
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+noindent
+\end_layout
+
+\end_inset
+
+ (
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+JumlahHalamanDepan
+\end_layout
+
+\end_inset
+
+ + 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+JumlahHalaman
+\end_layout
+
+\end_inset
+
+ + appendix)
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing single
+
+\lang english
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Advancement Multiple Attribute Decision Making (MADM) which then requires
+ the presence of a Decision Support System.
+ The method used in the decision making for this research is using the Analytica
+l Hierarchy Process (AHP).
+ 
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing single
+
+\lang english
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing single
+
+\lang english
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+noindent
+\end_layout
+
+\end_inset
+
+ Bibliography (
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+TahunPustaka
+\end_layout
+
+\end_inset
+
+)
+\end_layout
+
+\begin_layout Standard
+
+\lang english
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+newpage
+\end_layout
+
+\end_inset
+
+
+\begin_inset Separator latexpar
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+\size huge
+\lang english
+CURRICULUM VITAE
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing single
+
+\lang english
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+addcontentsline{toc}{chapter}{Curriculum Vitae}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang english
+The author's full name is Budi Setiawan Santoso who was born in Jakarta,
+ June 4th 1993 is the second child from three children in his family.
+ His educational background started from SDK IGN.
+ Slamet Riyadi (East Jakarta) and graduated in 2005.
+ His junior high school in SMPK.
+ IGN.
+ Slamet Riyadi (East Jakarta) and graduated in 2008.
+ For his senior high school is in SMAN 14 (East Jakarta) and graduated in
+ 2011.
+ After graduated from senior high school, he then continued to take a college
+ in Gunadarma University and majoring Information System.
+ In October 2011, he got SarMag (Sarjana Magister) Scholarship Program from
+ Gunadarma University majoring in Information System and has finished the
+ Undergraduate Degree in 2015.
+ At present, he is finishing the magister program majoring Information System
+ Management concentrate in Business Information System.
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing single
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+vspace*{20mm}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Separator latexpar
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align right
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+thispagestyle{plain}
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+KotaPenulis
+\end_layout
+
+\end_inset
+
+, 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+BlnThn
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing single
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+vspace*{15mm}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Separator latexpar
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align right
+Budi Setiawan Santoso, S.Kom
+\end_layout
+
+\begin_layout Chapter*
+
+\lang english
+PREFACE
+\end_layout
+
+\begin_layout Standard
+
+\lang english
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+thispagestyle{plain}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+addcontentsline{toc}{chapter}{Preface}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang english
+\begin_inset space \hspace{}
+\length 1.5em
+\end_inset
+
+Praise and thanks raised to God Almighty, Jesus Christ, with all the grants,
+ this work can be finished.
+ 
+\end_layout
+
+\begin_layout Standard
+
+\lang english
+This work was made to complete the requirement to finish study in Postgraduate
+ Program of Information System Department, Gunadarma University.
+ The title of this final project is the "
+\lang american
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+MakeUppercase{
+\backslash
+Judul}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang english
+Researcher also submit utterance thank you to every person who has not only
+ assisted morale goodness but also gave a lot of material for this work.
+ It is not possible to name everyone here; thanks go to all of them.
+ However, Researcher will dedicate special acknowledgment to:
+\end_layout
+
+\begin_layout Enumerate
+
+\lang english
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+Rektor
+\end_layout
+
+\end_inset
+
+, as Rector of Gunadarma University.
+ 
+\end_layout
+
+\begin_layout Enumerate
+
+\lang english
+Prof.
+ Dr.
+ Yuhara Sukra MSc, as Coordinator of Postgraduate Program of Gunadarma Universit
+y
+\end_layout
+
+\begin_layout Enumerate
+
+\lang english
+Prof.
+ Dr.
+ Soedijono R., MBA, as Director of Postgraduate Program of Gunadarma University
+ 
+\end_layout
+
+\begin_layout Enumerate
+
+\lang english
+Dr.
+ Yuhilza Hanum SSi, SKom, MEng, Diploma Program's Chief of Postgraduate
+ Program of Gunadarma University.
+ 
+\end_layout
+
+\begin_layout Enumerate
+
+\lang english
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+DosenPembimbing
+\end_layout
+
+\end_inset
+
+, as supervisor of this work, for her excellence in supervise Researcher.
+ 
+\end_layout
+
+\begin_layout Enumerate
+
+\lang english
+My beloved family, Teguh Setyobudi Wibowo (Father), L.
+ Ike Kristiani (Mother), and Gunawan Agung and Samuel Widodo (Brothers)
+ for all supports, kindnesses, and affection they have to give.
+\end_layout
+
+\begin_layout Enumerate
+
+\lang english
+All my friends, especially in Sarjana Magister (SarMag) SI -02 for a lot
+ of supports, sharings, jokes, and joys.
+\end_layout
+
+\begin_layout Enumerate
+
+\lang english
+Thanks to all my beloved friends Ruth Handayani Waruwu, Angeline Gloria,
+ Mayliana Pakpahan, Jursombanita, Laura F, Endru P, Mikha Dian P, Natanael
+ Pandapotan, Gilang Bayu U, Findria, Vega, Yohanes N, Isaac A, Fitri and
+ many more for your all full support in pray, help and all things for me
+ during finish this research.
+ 
+\end_layout
+
+\begin_layout Enumerate
+
+\lang english
+All parties can not mention who have helped this final settlement, researcher
+ also say thank you for all the help and advice.
+\end_layout
+
+\begin_layout Standard
+
+\lang english
+As ordinary people who make mistakes, Researcher apologize for any shortcomings
+ and limitations in drafting this master's thesis.
+\end_layout
+
+\begin_layout Standard
+
+\lang english
+Finally, researcher recognize that this study is far from perfect, due to
+ various limitations that the researcher had.
+ So, Researcher expect criticism and constructive suggestions for become
+ improvement in the future.
+ 
+\end_layout
+
+\begin_layout Standard
+
+\lang english
+Hopefully this master's thesis will be useful for all of us.
+ Amen.
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing single
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+vspace*{20mm}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Separator latexpar
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align right
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+thispagestyle{plain}
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+KotaPenulis
+\end_layout
+
+\end_inset
+
+, 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+BlnThn
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing single
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+vspace*{10mm}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Separator latexpar
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align right
+Researcher
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset toc
+LatexCommand tableofcontents
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+thispagestyle{plain}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+addcontentsline{toc}{chapter}{Contents}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FloatList figure
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+thispagestyle{plain}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+addcontentsline{toc}{chapter}{Figure List}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FloatList table
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+thispagestyle{plain}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+addcontentsline{toc}{chapter}{Table List}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Chapter
+
+\lang english
+INTRODUCTION
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+setcounter{page}{1}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+pagenumbering{arabic}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+
+\lang english
+Background
+\end_layout
+
+\begin_layout Standard
+
+\lang english
+\begin_inset space \hspace{}
+\length 1.5em
+\end_inset
+
+Jumlah data bertambah banyak dan berkembang seiring dengan kemajuan ilmu
+ pengetahuan dan teknologi informasi .
+ Sehingga dibutuhkan sebuah teknik khusus untuk memprosesnya dan data yang
+ jumlah besar membuat kegiatan manusia saat ini tidak lepas dari peran komputer.
+ Terdapat banyak bidang profesi yang telah menggunakan kemampuan komputer
+ untuk mendapatkan solusi dalam menyelesaikan masalah tersebut.
+ Seperti pada Square Kilometer Array (SKA) 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "DewdneyP2009"
+literal "true"
+
+\end_inset
+
+di Radio Astronomy terdiri dari 1.000 sampai dengan 1.500 piring dengan volume
+ data 40 gigabyte/second.
+ Game merupakan salah satu contoh pada bidang hiburan yang mendapatkan dampak
+ besar dari kemajuan teknologi dan perkembangan data.
+ Dengan teknologi yang canggih, game menjadi semakin kompleks dan membutuhkan
+ strategi yang tepat untuk mnyelesaikannya membuat game menjadi semakin
+ menarik.
+ Jaringan internet memungkinkan para pemain dari sisi dunia manapun dapat
+ bertanding satu sama lain dalam bentung kelompok atau perorangan.
+\end_layout
+
+\begin_layout Standard
+
+\lang english
+MOBA ( Multiplayer Online Battle Arena) merupakan jenis game yang menyediakan
+ fitur tersebut dan salah satu judul game berjenis tersebut adalah Dota
+ 2.
+ Dota 2 merupakan game yang cukup populer dapat dilihat pada website steamcharts.
+com bahwa jumlah rata-rata pemain aktif sebanyak 672.555 pemain di seluruh
+ dunia pada bulan Maret 2016.
+ Dengan kepopuleran game Dota 2 tersebut maka banyak diselenggarakan kompetisi
+ lokal maupun internasional untuk meramaikan permainan.
+ Hadiah yang besar membuat pemain Dota 2 menjadi sangat kompetitif bersaing
+ memperebutkannya.
+ Hadiah kompetisi terbesar yang disebut The International di Dota 2 semakin
+ bertambah secara signifikan seiring dengan pergantian tahun.
+ 
+\end_layout
+
+\begin_layout Standard
+
+\lang english
+Terhitung pada tahun 2014 total hadiah yang diterima sebesar $10.930.698 dan
+ bertambah setiap tahunnya.
+ Jumlah total hadiah pada turnamen The international ditentukan dari 25%
+ total pendapatan dari pembelian item khusus yang disebut Compendium.
+ Compendium merupakan sebuah item bundle yang berisi beberapa item accesories
+ lain didalamnya, item accesories tersebut bisa didapatkan dengan mengumpulkan
+ point yang diperoleh dengan menyelesaikan beberapa misi pada satu pertandingan.
+ Sehingga tercatat pada tahun 2016 hadiah total pada turnamen The International
+ mencapai $20.770.460.
+ Dengan jumlah yang mencapai hampir dua kali lipat dari tahun 2014, mengindikasi
+kan bahwa terdapat sejumlah besar pemain aktif yang siap membeli item pada
+ Dota 2 sehingga memberikan keuntungan yang cukup signifikan.
+ Pemasaran merupakan factor penting dibalik kesuksesan Dota 2 dalam meningkatkan
+ pendapatan.
+ Sehingga dengan semakin populernya Dota 2 membuat data pemain dan data
+ permainan semakin bertambah dan semakin banyak sehingga Data mining merupakan
+ metode yang tepat untuk mengolah data dengan jumlah besar untuk mendapatkan
+ informasi yang dibutuhkan.
+ Melalui beberapa metode terkini, data mining menjadi sebuah pendekatan
+ yang sangat kuat dalam mengolah susunan data 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "paulo1"
+literal "true"
+
+\end_inset
+
+.
+ Dengan menggunakan metode data mining yang sesuai, maka dapat ditentukan
+ strategi pemasaran yang sesuai untuk masa depan.
+ 
+\end_layout
+
+\begin_layout Section
+Statement of Problem
+\end_layout
+
+\begin_layout Standard
+
+\lang english
+\begin_inset space \hspace{}
+\length 1.5em
+\end_inset
+
+Penelitian ini bertujuan untuk mengetahui strategi pemasaran yang sesuai
+ dengan data yang ada pada Dota 2 .
+ Sehingga rumusan masalah pada penelitian ini adalah sebagai berikut:
+\end_layout
+
+\begin_layout Enumerate
+Bagaimana mendapatkan data nama Hero pada setiap pertandingan?
+\end_layout
+
+\begin_layout Enumerate
+Bagaimana memproses data yang sudah didapatkan menggunakan algoritma Apriori?
+\end_layout
+
+\begin_layout Enumerate
+Bagaimana menggunakan hasil data tersebut untuk strategi pemasaran?
+\end_layout
+
+\begin_layout Section
+
+\lang english
+Scope of the Research
+\end_layout
+
+\begin_layout Standard
+
+\lang english
+\begin_inset space \hspace{}
+\length 1.5em
+\end_inset
+
+Terdapat banyak data yang tersedia dalam satu pertandingan Dota 2, seperti
+ data yang memuat nama hero, data jenis pertandingan, data yang memuat KDA(Kill
+ Death Assist), data item yang digunakan, data GPM (Gold Per Minute) setiap
+ karakter yang ada , hingga data nama pemain yang ada .
+ Namun dengan melihat apa saja yang ditawarkan Dota 2 pada bagian dipenjualan
+ tersebut yang mayoritasnya merupakan item set beberapa Hero, maka batasan
+ penelitian pada penelitian ini adalah sebagai berikut:
+\end_layout
+
+\begin_layout Enumerate
+
+\lang english
+Data yang diambil pada satu pertandingan adalah Data sepuluh nama hero yang
+ berbeda.
+\end_layout
+
+\begin_layout Enumerate
+
+\lang english
+Data pertandingan diambil secara acak dan hanya yang terjadi pada tahun
+ 2015 dan 2016 dengan jenis pertandingan 
+\begin_inset Quotes eld
+\end_inset
+
+All pick
+\begin_inset Quotes erd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Enumerate
+Pihak tim yang menang tidak mempengaruhi data pertandingan yang akan diperoses.
+ 
+\end_layout
+
+\begin_layout Section
+Objective of The Research
+\end_layout
+
+\begin_layout Standard
+
+\lang english
+\begin_inset space \hspace{}
+\length 1.5em
+\end_inset
+
+Membuat aplikasi untuk memproses data pada Dota 2 dengan data mining menggunakan
+ algoritma Apriori untuk menentukan strategi pemasaran.
+\end_layout
+
+\begin_layout Section
+
+\lang english
+Research Benefits 
+\end_layout
+
+\begin_layout Standard
+
+\lang english
+\begin_inset space \hspace{}
+\length 1.5em
+\end_inset
+
+The benefits from this research are:
+\end_layout
+
+\begin_layout Enumerate
+Untuk akademis, penelitian ini diharapkan dapat memberikan informasi mengenai
+ penggunaan data mining pada hero Dota 2.
+\end_layout
+
+\begin_layout Enumerate
+Untuk developer, implementasi data mining pada penelitian dapat digunakan
+ untuk mengembangkan sistem game Dota 2 saat ini.
+\end_layout
+
+\begin_layout Enumerate
+Untuk penelitian lain, hasil dari penelitian ini dapat dipergunakan untuk
+ penelitian lain yang masih dalam lingkup kategori data mining.
+\end_layout
+
+\begin_layout Chapter
+
+\lang english
+LITERATURE REVIEW
+\end_layout
+
+\begin_layout Section
+Marketing
+\end_layout
+
+\begin_layout Subsection
+Marketing 3.0 Theory
+\end_layout
+
+\begin_layout Standard
+
+\lang english
+\begin_inset space \hspace{}
+\length 1.5em
+\end_inset
+
+Industrial development has resulted in the total production of goods increases.
+ However, this increase is sometimes not in accordance with the sale of
+ goods.
+ Marketing was born to facilitate the sale of goods or services.
+ The production will be traded on a particular business process to get a
+ fair profit.
+ In the past, the production will be sold with a choice of pre-set from
+ the start, and marketing purposes only how the goods are sold.
+ This was Marketing 1.0 or the product-centric era.
+\end_layout
+
+\begin_layout Standard
+
+\lang english
+Development of Internet technology developed into an information center
+ for all of the consumers thus making the product is no longer seen only
+ from one side of its functions, but also from all sides.
+ Consumer be smart to choose and marketing should be able to make its products
+ look better than competitors' products.
+ This is the view in Marketing 2.0 or the customer-oriented era.
+ 
+\end_layout
+
+\begin_layout Standard
+
+\lang english
+Like consumer-oriented Marketing 2.0, Marketing 3.0 also aims to satisfy the
+ consumer.
+ However, companies practicing Marketing 3.0 have bigger missions, visions,
+ and values to contribute to the world; they aim to provide solutions to
+ ad- dress problems in the society.
+ Marketing 3.0 lifts the concept of marketing into the arena of human aspirations
+, values, and spirit.
+ Marketing 3.0 believes that consumers are complete human beings whose other
+ needs and hopes should never be neglected.
+ Therefore, Marketing 3.0 complements emotional marketing with human spirit
+ marketing
+\begin_inset CommandInset citation
+LatexCommand citep
+key "kotler2010"
+literal "true"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+The following is a comparison of Marketing 1.0, Marketing 2.0 and Marketing
+ 3.0.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Comparison of Marketing 1.0, 2.0 and 3.0 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "kotler2010"
+literal "true"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+centering
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename figure/tabel-perbandingan-marketing.png
+	scale 60
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Since early 2000, information technology has penetrated the mainstream market
+ and further developed into what is considered the new wave technology.
+ New wave technology is technology that enables connectivity and interactivity
+ of individuals and groups.
+ New wave technology consists of three major forces: cheap computers and
+ mobile phones, low- cost Internet, and open source .
+ One of the enablers of new wave technology is the rise of social media.
+ Philip Kotler , Hermawan Kartajaya and Iwan Setiawan classify social media
+ in two broad categories.
+ One is the expressive social media, which includes blogs, Twitter, YouTube,
+ Facebook, photo sharing sites like Flickr, and other social networking
+ sites.
+ The other category is the collaborative media, which includes sites such
+ as Wikipedia, Rotten Tomatoes, and Craigslist.
+\end_layout
+
+\begin_layout Subsection
+Marketing Model
+\end_layout
+
+\begin_layout Subsubsection
+Segmentation,Targeting and Positioning
+\end_layout
+
+\begin_layout Subsubsection*
+Segmentation
+\end_layout
+
+\begin_layout Standard
+
+\lang english
+\begin_inset space \hspace{}
+\length 1.5em
+\end_inset
+
+Each consumer is an individual with individual needs and wants.
+ On the face of it, this creates a major problem for the marketer, since
+ it would clearly be impossible to tailor-make or customise each product
+ to the exact requirements of each individual.
+ Before the Industrial Revolution most products were individually made.
+ This proved to be expensive, and essentially inefficient once mass-production
+ techniques had come into being.
+ Unfortunately, mass-production (taken to the extreme) means a reduction
+ in the available choice of product, since the best way to keep production
+ costs low is to have long production runs, which means standardising the
+ product.
+ 
+\end_layout
+
+\begin_layout Standard
+
+\lang english
+Every adaptation costs money in terms of re-tooling and re-packaging the
+ product.
+ In some economies, particularly those in parts of Eastern Europe and in
+ the Third World, there is not sufficient wealth or investment in industry
+ to allow for the production of many different types of product.
+ These economies still rely heavily on mass production, and mass marketing.
+ Mass marketing (or undifferentiated marketing) in which a standard product
+ is produced for all consumers will only be effective if the consumers concerned
+ have little choice and do not already own a product that meets the main
+ needs
+\begin_inset CommandInset citation
+LatexCommand citep
+key "blythe2005"
+literal "true"
+
+\end_inset
+
+.
+ For example, in 1930s Germany few families owned cars.
+ Hitler promised the German people that every family would own a car, so
+ Porsche was commissioned to develop the Volkswagen (literally ’people’s
+ car’) as a basic vehicle, which could be cheaply produced for the mass
+ market.
+\end_layout
+
+\begin_layout Standard
+
+\lang english
+In order to make these adaptations worthwhile, marketers need to be reasonably
+ sure that there is a large enough market for the product to be viable economica
+lly.
+ On the other hand, concentrating on a smaller segment means that economies
+ can be made in the supplier’s communications activities; rather than advertise
+ to a mass market, for example, the marketer would be better off concentrating
+ resources on producing an advert that is tailored to the target segment
+ – an ad, in other words, designed for the ideal customer and no other.In
+ order to make these adaptations worthwhile, marketers need to be reasonably
+ sure that there is a large enough market for the product to be viable economica
+lly.
+ On the other hand, concentrating on a smaller segment means that economies
+ can be made in the supplier’s communications activities; rather than advertise
+ to a mass market, for example, the marketer would be better off concentrating
+ resources on producing an advert that is tailored to the target segment
+ – an ad, in other words, designed for the ideal customer and no other.
+\end_layout
+
+\begin_layout Standard
+
+\lang english
+There are many bases for segmenting, but the following are the main ones:
+\end_layout
+
+\begin_layout Itemize
+
+\lang english
+Geographic
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+
+\lang english
+Where the consumers live, the climate, the topology, etc.
+ For example, cars in California almost always have air-conditioning; cars
+ in Sweden have headlights that stay on constantly because of the poor quality
+ of the light for much of the year.
+ Geographic segmentation is very commonly used in international marketing,
+ but is equally useful within single nations.
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+
+\lang english
+Psychographic
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+
+\lang english
+Based on the personality type of the individuals in the segment.
+ For example, the home insurance market might segment into those who are
+ afraid of crime, those who are afraid of natural disasters, and those who
+ are afraid of accidental damage to their property.
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+
+\lang english
+Behavioural
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+
+\lang english
+This approach examines the benefits, usage situation, extent of use and
+ loyalty.
+ For example, the car market might segment into business users and private
+ users.
+ The private market might segment further to encompass those who use their
+ cars primarily for commuting, those who use their cars for hobbies such
+ as surfing or camping, and those who use the car for domestic duties such
+ as shopping or taking children to school.
+ The business market might segment into ‘prestige’ users such as managing
+ directors and senior staff, or high-mileage users such as salespeople.
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+
+\lang english
+Demographic
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+
+\lang english
+Concerned with the structure of the population in terms of ages, lifestyles,
+ economic factors.
+ For example, the housing market can be divided into first-time buyers,
+ families with children, older retired people, and elderly people in sheltered
+ accommodation; equally, the market could be segmented according to lifestyle,
+ with some accommodation appealing to young professionals, some appealing
+ to country-lovers, and so forth.
+\end_layout
+
+\end_deeper
+\begin_layout Subsubsection*
+
+\lang english
+Targeting
+\end_layout
+
+\begin_layout Standard
+
+\lang english
+\begin_inset space \hspace{}
+\length 1.5em
+\end_inset
+
+Having divided the market into segments, managers must decide which segment
+ will be the best to target, given the firm’s overall objectives.
+ Normally managers would choose the most profitable segment, but equally
+ a firm may decide to aim for a particular segment of the market that is
+ currently neglected, on the grounds that competitors are less likely to
+ enter the market.
+ The process of selecting a segment to aim for is called targeting.
+ There are three basic strategic options open to marketers.
+ 
+\end_layout
+
+\begin_layout Enumerate
+
+\lang english
+Concentrated marketing (single segment)This is also known as niche marketing;
+ Tie Rack, Sock Shop and Knickerbox follow this approach.
+ The niche marketer concentrates on being the very best within a single
+ tiny segment.
+ 
+\end_layout
+
+\begin_layout Enumerate
+
+\lang english
+Differentiated marketing (multisegmented) means concentrating on two or
+ more segments, offering a differentiated marketing mix for each.
+ Holiday Inn aims to attract business travellers during the week, but aims
+ for the leisure market at the weekend, and promotes to families.
+ At the weekend, the hotels often have events for children and special room
+ rates for families.
+ 
+\end_layout
+
+\begin_layout Enumerate
+
+\lang english
+Undifferentiated marketing is about using a ‘scattergun’ approach.
+ The producers who do this are usually offering a basic product that would
+ be used by almost all age groups and lifestyles.
+ For example, the market for petrol is largely undifferentiated.
+ Although oil producers occasionally try to differentiate their products
+ by the use of various additives and detergents, the use of petrol is much
+ the same for everybody, and there would not appear to be any relationship
+ between segmentation variables and petrol use.
+ It would be difficult to imagine any real adaptation to the product that
+ would meet people’s needs sufficiently well to merit a premium price.
+ Such examples of undifferentiated products are increasingly rare; even
+ the producers of such basic commodities as salt and flour have made great
+ strides forward in differentiating their products (i.e.
+ meeting consumers’ needs better).
+ 
+\end_layout
+
+\begin_layout Standard
+
+\lang english
+\begin_inset space \hspace{}
+\length 1.5em
+\end_inset
+
+The decision regarding which strategy to adopt will rest on the following
+ three factors: 
+\end_layout
+
+\begin_layout Itemize
+
+\lang english
+the company’s resources, 
+\end_layout
+
+\begin_layout Itemize
+
+\lang english
+the product’s features and benefits, and 
+\end_layout
+
+\begin_layout Itemize
+
+\lang english
+the characteristics of the segment(s).
+\end_layout
+
+\begin_layout Subsubsection*
+
+\lang english
+Positioning
+\end_layout
+
+\begin_layout Standard
+
+\lang english
+\begin_inset space \hspace{}
+\length 1.5em
+\end_inset
+
+Positioning has been defined as: ‘The place a product occupies in a given
+ market, as perceived by the relevant group of customers; that group of
+ customers is known as the target segment of the market.’11 Usually positioning
+ refers to the place the product occupies in the consumer’s perceptual map
+ of the market: for instance as a high-quality item, or as a reliable one,
+ or perhaps as a cheap version.
+ The product is positioned in the perceptual map alongside similar offerings;
+ this is a result of the categorisation and chunking processes .
+ Consumers build up a position for a product based on what they expect and
+ believe to be the most pertinent features of the product class.
+ Marketers therefore need to find out first what the pertinent features
+ of the products are in the target consumers’ perceptions.
+ The marketer can then adjust the mix of features and benefits, and the
+ communications mix, to give the product its most effective position relative
+ to the other brands in the market.
+ Sometimes the positioning process is led by the consumers, sometimes by
+ the marketers.
+ Research shows that consumers use a relatively short list of factors in
+ determining the position of a product.
+ These are as follows: 
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+\lang english
+Top-of-the-range
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+
+\lang english
+This refers to the product which consumers believe to be the most expensive
+ or ‘the best’.
+ In the UK, this is often called ‘the Rolls-Royce of …’ whichever product
+ type is under discussion.
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+
+\series bold
+\lang english
+Service
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+
+\lang english
+The service levels which surround the product can be an important factor.
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+
+\series bold
+\lang english
+Value for money
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+
+\lang english
+This is the degree to which the product’s benefits represent a fair exchange
+ for the price being asked.
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+
+\series bold
+\lang english
+Reliability
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+
+\lang english
+Products are often positioned as being more (or less) reliable than their
+ competitors.
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+
+\series bold
+\lang english
+Attractiveness
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+
+\lang english
+This can refer to factors other than appearance, but implies factors other
+ than the purely practical, performance-related factors.
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+
+\series bold
+\lang english
+Country of origin
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+
+\lang english
+Some countries have a reputation for producing the best examples of some
+ categories of product.
+ For example, German engineering is highly regarded, whereas the French
+ are known for their food and wine.
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+
+\series bold
+\lang english
+Brand name
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+
+\lang english
+Branding is a key issue in positioning, as it identifies the product and
+ conveys an impression of its quality (see Chapter 6).
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+
+\series bold
+\lang english
+Selectivity
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+
+\lang english
+The degree to which the consumer can distinguish between brands and select
+ from the range is a factor in positioning.
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Section
+Data Mining
+\end_layout
+
+\begin_layout Subsection
+Data Mining Concept
+\end_layout
+
+\begin_layout Standard
+
+\lang english
+\begin_inset space \hspace{}
+\length 1.5em
+\end_inset
+
+Data mining merupakan evolusi dari teknologi informasi.
+ Teknologi informasi yang dapat menampung banyak data namun sangat sedikit
+ informasi membuat data mining muncul sebagai solusi.
+ Dengan kemampuannya mendapatkan informasi dari begitu banyak data maka
+ data mining sering disebut juga sebagai Knowledge Discovery from Data atau
+ KDD.
+ KDD memiliki beberapa tahap untuk mendapatkan informasi atau pengetahuan
+ dari data yang dimiliki, yaitu : 
+\end_layout
+
+\begin_layout Subsubsection*
+1.
+ Data Cleaning
+\end_layout
+
+\begin_layout Standard
+
+\lang english
+\begin_inset space \hspace{}
+\length 1.5em
+\end_inset
+
+To remove noise and inconsistent data.
+\end_layout
+
+\begin_layout Subsubsection*
+
+\lang english
+2.
+ Data integration 
+\end_layout
+
+\begin_layout Standard
+
+\lang english
+\begin_inset space \hspace{}
+\length 1.5em
+\end_inset
+
+Where multiple data sources may be combined.
+\end_layout
+
+\begin_layout Subsubsection*
+
+\lang english
+3.
+ Data selection 
+\end_layout
+
+\begin_layout Standard
+
+\lang english
+\begin_inset space \hspace{}
+\length 1.5em
+\end_inset
+
+Where data relevant to the analysis task are retrieved from the database.
+\end_layout
+
+\begin_layout Subsubsection*
+
+\lang english
+4.
+ Data transformation 
+\end_layout
+
+\begin_layout Standard
+
+\lang english
+\begin_inset space \hspace{}
+\length 1.5em
+\end_inset
+
+Where data are transformed and consolidated into forms appropriate for mining
+ by performing summary or aggregation operations.
+\end_layout
+
+\begin_layout Subsubsection*
+
+\lang english
+5.
+ Data mining 
+\end_layout
+
+\begin_layout Standard
+
+\lang english
+\begin_inset space \hspace{}
+\length 1.5em
+\end_inset
+
+An essential process where intelligent methods are applied to extract data
+ patterns.
+\end_layout
+
+\begin_layout Subsubsection*
+
+\lang english
+6.
+ Pattern evaluation 
+\end_layout
+
+\begin_layout Standard
+
+\lang english
+\begin_inset space \hspace{}
+\length 1.5em
+\end_inset
+
+To identify the truly interesting patterns representing knowledge based
+ on interestingness measure.
+\end_layout
+
+\begin_layout Subsubsection*
+
+\lang english
+7.
+ Knowledge presentation 
+\end_layout
+
+\begin_layout Standard
+
+\lang english
+\begin_inset space \hspace{}
+\length 1.5em
+\end_inset
+
+Where visualization and knowledge representation techniques are used to
+ present mined knowledge to users.
+\end_layout
+
+\begin_layout Standard
+
+\lang english
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename figure/Data mining as a step in the process of knowledge discovery.png
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\lang english
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\lang english
+Data mining as a step in the process of knowledge discovery
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang english
+Pada Figure 1 dapat dilihat bahwa langkah pertama hingga keempat merupakan
+ langkah sebelum pemrosesan data, dimana data disusun terlebih dahulu sebelum
+ diproses.
+ Proses dilakukan pada tahap data mining sehingga menghasilkan pengetahuan
+ yang berguna untuk pengguna atau basis pengetahuan.
+ Proses data mining merupakan proses mencari pola yang diinginkan sehingga
+ menghasilkan pengetahuan dari data dengan jumlah yang besar.
+ Hasil dari proses tersebut akan diterjemahkan ke dalam bahasa yang mudah
+ dipahami oleh manusia.
+ Sumber data yang digunakan dapat berupa database, data warehouse, web,
+ dan other information repositories.
+ Data mining sebagai solusi permasalahan dalam mengambil informasi dari
+ data dengan jumlah besar memiliki fungsionalitas, yaitu : 
+\end_layout
+
+\begin_layout Subsubsection*
+
+\series bold
+\lang english
+Characterization
+\series default
+ 
+\end_layout
+
+\begin_layout Standard
+
+\lang english
+\begin_inset space \hspace{}
+\length 1.5em
+\end_inset
+
+A summarization of the general characteristics or features of a target class
+ of data.
+ For example, the characteristics of students can be produced, generating
+ a profile of all the University first year computing science students,
+ which may include such information as a high GPA and large number of courses
+ taken.
+\end_layout
+
+\begin_layout Subsubsection*
+
+\lang english
+Discrimination
+\end_layout
+
+\begin_layout Standard
+
+\lang english
+\begin_inset space \hspace{}
+\length 1.5em
+\end_inset
+
+A comparison of the general features of target class data objects with the
+ general features of objects from one or a set of contrasting classes.
+ For example, the general features of students with high GPA’s may be compared
+ with the general features of students with low GPA’s.
+ The resulting description could be a general comparative profile of the
+ students such as 75% of the students with high GPA’s are fourth-year computing
+ science students while 65% of the students with low GPA’s are not.
+\end_layout
+
+\begin_layout Subsubsection*
+
+\lang english
+Association
+\end_layout
+
+\begin_layout Standard
+
+\lang english
+\begin_inset space \hspace{}
+\length 1.5em
+\end_inset
+
+is the discovery of association rules showing attribute-value conditions
+ that occur frequently together in a given set of data.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+major(X,\text{“}computingscience\text{”})\text{⇒}owns(X,\text{“}personalcomputer\text{”})
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+[support="12\%",confidence="98\%"]
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+bigskip
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Where X is a variable representing a student.
+ The rule indicates that of the students under study,12% (support) major
+ in computing science and own a personal computer.
+ There is a 98% probability (confidence, or certainty) that a student in
+ this group owns a personal computer.
+\end_layout
+
+\begin_layout Subsubsection*
+Classification
+\end_layout
+
+\begin_layout Standard
+
+\lang english
+\begin_inset space \hspace{}
+\length 1.5em
+\end_inset
+
+Differs from prediction in that the former constructs a set of models (or
+ functions) that describe and distinguish data classes or concepts, whereas
+ the latter builds a model to predict some missing or unavailable, and often
+ numerical, data values.
+ Their similarity is that they are both tools for prediction: Classification
+ is used for predicting the class label of data objects and prediction is
+ typically used for predicting missing numerical data values.
+\end_layout
+
+\begin_layout Subsubsection*
+
+\lang english
+Clustering
+\end_layout
+
+\begin_layout Standard
+
+\lang english
+\begin_inset space \hspace{}
+\length 1.5em
+\end_inset
+
+Analyzes data objects without consulting a known class label.
+ The objects are clustered or grouped based on the principle of maximizing
+ the intraclass similarity and minimizing the interclass similarity.
+ Each cluster that is formed can be viewed as a class of objects.
+ Clustering can also facilitate taxonomy formation, that is, the organization
+ of observations into a hierarchy of classes that group similar events together.
+\end_layout
+
+\begin_layout Subsubsection*
+
+\lang english
+Data evolution
+\end_layout
+
+\begin_layout Standard
+
+\lang english
+\begin_inset space \hspace{}
+\length 1.5em
+\end_inset
+
+Analysis describes and models regularities or trends for objects whose behavior
+ changes over time.
+ Although this may include characterization, discrimination, association,
+ classification, or clustering of time-related data, distinct features of
+ such an analysis include time-series data analysis, sequence or periodicity
+ pattern matching, and similarity-based data analysis.
+\end_layout
+
+\begin_layout Subsection
+
+\lang english
+Association Analysis
+\end_layout
+
+\begin_layout Standard
+
+\lang english
+\begin_inset space \hspace{}
+\length 1.5em
+\end_inset
+
+Association analysis is a data mining methodology that accumulate some data
+ to get relationship of data.
+ Association analysis is useful for discovering interesting relationships
+ hidden in large data sets.
+ (Introduction to data mining ).
+ The uncovered relationship of data can be represented in the form of associatio
+n rules.
+ Sebagai contoh, bisa dilihat pada table 1 bahwa terdapat beberapa data
+ item yang pernah dibeli oleh customer.
+\end_layout
+
+\begin_layout Standard
+
+\lang english
+\begin_inset Float table
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+
+\lang english
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\lang english
+Example of customer transactions
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+bigskip
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="6" columns="2">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+ID
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Items
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+{Bread, Milk}
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+{Bread, Diapers, Beer, Eggs}
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+3
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+{Milk, Diapers, Beers, Cola} 
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+4
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+{Bread, Milk, Diapers, Beer}
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+5
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+{Bread, Milk, Diapers, Cola} 
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang english
+Dengan menggunakan Association rule, dapat diperoleh informasi bahwa terdapat
+ data yang memiliki hubungan yang kuat , yaitu
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\lang english
+{Diapers} {Beer}.
+\end_layout
+
+\begin_layout Standard
+
+\lang english
+Dengan begitu retailer dapat menggunakan rule ini untuk membantu mengidentifikas
+i kesempatan baru untuk cross-selling produknya kepada customer.
+ Beside market basket data, association analysis is also applicable to other
+ application domains such as bioinformatics, medical diagnosis, Web mining
+ and scientific data analysis.
+\end_layout
+
+\begin_layout Subsubsection
+
+\lang english
+Apriori Algorithm
+\end_layout
+
+\begin_layout Standard
+
+\lang english
+\begin_inset space \hspace{}
+\length 1.5em
+\end_inset
+
+Apriori is the first association rule mining algorithm that pioneered the
+ use of support-based pruning to systemically control the exponential growth
+ of candidate itemsets.
+ Figure 2.2 below provides a high-level illustration of the frequent itemset
+ generation part of the Apriori algorithm for the transactions shown in
+ Table 2.1 .
+ 
+\end_layout
+
+\begin_layout Standard
+
+\lang english
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename figure/Illustration of frequent itemset generation using the Apriori algorithm.png
+	scale 50
+	rotateOrigin center
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\lang english
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\lang english
+Illustration of frequent itemset generation using the Apriori algorithm
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang english
+We assume that the support threshold is 60%, which is equivalent to a minimum
+ support count equal to 3.
+ Initially, every item is considered as a candidate 1-itemset.
+ After counting their supports, the candidate itemsets {Cola} and {Eggs}
+ are discarded because they appear in fewer than three transaction.
+ In the next iteration, candidate 2-itemsets are generated using only the
+ frequent 1-itemsets because the Apriori principle ensures that all supersets
+ of the infrequent 1-itemsets must be infrequent.
+ Because there are only four frequent 1-itemsets, the number candidate 2-itemset
+s generated by the algorithm is 
+\begin_inset Formula $\left(\begin{array}{c}
+4\\
+2
+\end{array}\right)=6$
+\end_inset
+
+ .
+ Two of these six candidates , {Beer, Bread} and {Beer, Milk}, are subsequently
+ found to be infrequent after computing their support values.
+ The remaining four candidates are frequent, and thus will be used to generate
+ candidate 3-itemsets.
+ Without support-based pruning, there are 
+\begin_inset Formula $\left(\begin{array}{c}
+6\\
+3
+\end{array}\right)=20$
+\end_inset
+
+ candidate 3-itemsets that can be formed using six items given in this example.
+ With the Apriori principle, we only need to keep candidate 3-itemsets whose
+ subsets are frequent.
+ The only candidate that has property is {Bread, Diapers, Milk}.
+\end_layout
+
+\begin_layout Standard
+
+\lang english
+The effectiveness of the Apriori pruning strategy can be shown by counting
+ the number of candidate itemsets generated.
+ A brute-force strategy of enumerating all itemsets (up to size 3) as candidates
+ will produce candidates.
+\end_layout
+
+\begin_layout Standard
+
+\lang english
+\begin_inset Formula 
+\[
+\left(\begin{array}{c}
+6\\
+1
+\end{array}\right)+\left(\begin{array}{c}
+6\\
+2
+\end{array}\right)+\left(\begin{array}{c}
+6\\
+3
+\end{array}\right)=6+15+20=41
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang english
+With the Apriori principle, this number decreases to 
+\end_layout
+
+\begin_layout Standard
+
+\lang english
+\begin_inset Formula 
+\[
+\left(\begin{array}{c}
+6\\
+1
+\end{array}\right)+\left(\begin{array}{c}
+4\\
+2
+\end{array}\right)+1=6+6+1=13
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Games
+\end_layout
+
+\begin_layout Standard
+
+\lang english
+\begin_inset space \hspace{}
+\length 1.5em
+\end_inset
+
+
+\lang american
+A game is a system in which players engage in an artificial conflict, defined
+ by rules, that results in a quantifiable outcome
+\begin_inset CommandInset citation
+LatexCommand citep
+key "zimmerman2003"
+literal "true"
+
+\end_inset
+
+.
+ Games arise from the human desire for play fromour capacity pretend.
+ Play is a wide category of nonessential and usually recreational, human
+ activities that are often socially significant as well.
+ Pretending is the mental ability to establish a national reality that the
+ pretender knows is different from the real world and that the pretender
+ can create, abandon, or change at will.
+ Playing and pretending are essential elements of playing games.
+ Both have been studied extensively as cultural and psychological phenomena
+\begin_inset CommandInset citation
+LatexCommand citep
+key "ernest2010"
+literal "true"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsection
+MOBA
+\end_layout
+
+\begin_layout Standard
+
+\lang english
+\begin_inset space \hspace{}
+\length 1.5em
+\end_inset
+
+Multi-Player Online Battle Arena games (MOBAs) is a variant of the Real-Time
+ Strategy genre that have evolved to comprise a significant fraction of
+ the e- sports environment.
+ The term MOBA can be used in broad sense to any game where two teams consisting
+ of several players compete with each other to achieve a victory.
+ This is generally achieved by eliminating the opposing team’s base or via
+ a ticker system which responds to zonal or strategic point control
+\begin_inset CommandInset citation
+LatexCommand citep
+key "miller2010"
+literal "true"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Section
+DOTA 2
+\end_layout
+
+\begin_layout Standard
+\begin_inset space \hspace{}
+\length 1.5em
+\end_inset
+
+Based on the popular modification DotA (Defense of the Ancients) for the
+ game Warcraft 3, Dota 2 is is a typical example of the MOBA genre.
+ Most popular MOBAs (including e.g.
+ League of Legends, Heroes of Newerth, Smite, etc.) are identical in terms
+ of the basic gameplay but differ in specific details, e.g.
+ heroes, skills, additional mechanics, graphics, maps, etc..
+ Dota 2 is played in teams of five.
+ Each player controls a hero character with specific strengths and weak-
+ nesses, abilities, matching items and so on that is picked from a large
+ pool at the beginning of each round.
+ The choice of a specific hero is an important aspect of the game.
+ Teams need a balance of heroes with different abilities that are able to
+ fulfill certain roles with respect to the team tactics and strategies,
+ resembling traditional team-based sports.
+ Although the core setup appears simple, it can lead to a large variety
+ of complex team-based behaviors, roles, and strategies.
+ Heroes develop their abilities in a heterogeneous manner and become stronger
+ throughout the game by collecting experience points and gold, which the
+ players can invest into items that support the heros abilities or provide
+ other advantages to the team.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+centering
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename figure/map-fix.png
+	scale 35
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Dota 2 map layout with lane annotations 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "eggert2015"
+literal "true"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+As shown in figure 2.3 (left), the map is split into three lanes.
+ Each lane has three defensive towers (green / red squares in figure 1)
+ (e.g.
+ left) that constantly attack enemies within their range.
+ The goal of the game is to destroy the enemys main building (the Ancient
+ ) after destroying all towers leading to it on a lane.
+ Along each of the lanes, a wave of non-player characters (NPC), called
+ creeps, runs from the base of each team to the base of the enemy.
+ Creeps are important sources for gold and experience and can be utilized
+ for attacks.
+ Finishing blows to them are called last hits and are often used as an efficienc
+y benchmark.
+ Additionally, there are camps of neutral creeps (hostile towards both factions)
+, in the map areas marked as Dire Jungle and Radiant Jungle in figure 1
+ (left).
+ Another possibility to earn gold and experience is killing enemy heroes.
+ Players lose some gold with each death and have to wait a certain amount
+ of time until their hero is revived at their base.
+ Surprise attacks on enemy players from behind while they are dealing with
+ creeps are a common tactic.
+ In Dota 2 this behavior is called ganking.
+ Each match is separated into three phases, called the early game, mid game
+ and late game.
+ There are no exact time thresholds for these phases and transitions (based
+ on the behavior of the players and the strength of their heroes) can be
+ subtle.
+ The early game typically lasts for about 10-15 minutes.
+ In this phase players mostly stay on their side of the map and collect
+ experience points and gold by killing creeps.
+ The mid game is the game phase that differs the most in every match.
+ It depends heavily on the heroes chosen by each team.
+ At some point in the game, heroes get so strong that even towers are no
+ real threat to them anymore and heroes will be fully developed and equipped
+ to their maximum abilities.
+ This phase is called the late game.
+\end_layout
+
+\begin_layout Subsection
+Player Roles
+\end_layout
+
+\begin_layout Standard
+\begin_inset space \hspace{}
+\length 1.5em
+\end_inset
+
+There are recurring roles (or play styles) that players choose and try to
+ follow for a specific game.
+ These roles are not formally defined but have established themselves informally
+ among players.based on the article created by Christoph Eggert et al titled
+ "Classification of Player Roles in the Team-Based Multi-player Game Dota
+ 2", there are several classifications of role play, that is:
+\end_layout
+
+\begin_layout Itemize
+Carry - Active
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+
+\lang english
+Active carries engage enemy players and participate in team fights to gain
+ experience and gold.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Carry - Farming 
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+farming carries focus on utilizing enemy or neutral creeps for character
+ development for the late game.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Ganker 
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+try to waylay enemy heroes with surprise attacks, sometimes very early in
+ the game.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Support - Babysitter 
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+Players that protect teammates (usually a carry) and staying very close
+ to them.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Support - Roaming 
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+active around the map and even waylay other players similar to gankers.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Support - Farming 
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+Support that also take their share of experience and gold to get better
+ item.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Pusher 
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+Player that continuously try to clear out enemy towers, thereby pushing
+ their lane.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Feeder 
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+Players that somehow get taken advantage of or show very bad performance
+ during the whole game.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Inactive
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+Players that represent another special class of players that - due to technical
+ difficulties or other reasons - do not actively participate in the war.
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Subsection
+Heroes
+\end_layout
+
+\begin_layout Standard
+\begin_inset space \hspace{}
+\length 1.5em
+\end_inset
+
+Heroes are a character that is playable on dota 2.
+ Heroes have four or more unique abilities to kill enemies heroes or help
+ teamate heroes.
+ Heroes have 25 max level and three attributes that are developed in accordance
+ with the level.
+ The three attributes are Strength, Agility and Intelligence.
+ The attribute not only grow based on the level of the hero, but also with
+ the items in accordance with its respective role.
+ Based on the division of the territory on the Dota 2 map, heroes are divided
+ into two types, namely Dire and Radiant.
+ In addition, heroes types can be distinguished based on the attributes
+ of the main hero.
+\end_layout
+
+\begin_layout Standard
+
+\lang english
+\begin_inset Float table
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\lang english
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Heroes list
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang english
+\begin_inset Tabular
+<lyxtabular version="3" rows="114" columns="3">
+<features islongtable="true" longtabularalignment="center">
+<column alignment="left" valignment="top" width="0pt">
+<column alignment="left" valignment="top" width="0pt">
+<column alignment="left" valignment="top" width="0pt">
+<row endhead="true">
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+No.
+ 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Heroes name
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Heroes type 
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+1
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Abaddon
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Strength
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+2
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Alchemist
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Strength
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+3
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Ancient apparition
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Intelligence
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+4
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Anti-mage
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Agility
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+5
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Arc warden
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Agility
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+6
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Axe
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Strength
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+7
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Bane
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Intelligence
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+8
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Batrider
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Intelligence
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+9
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Beastmaster
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Strength
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+10
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Bloodseeker
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Agility
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+11
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Bounty hunter
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Agility
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+12
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Brewmaster
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Strength
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+13
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Bristleback
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Strength
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+14
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Broodmother
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Agility
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+15
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Centaur warrunner
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Strength
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+16
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Chaos knight
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Strength
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+17
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Chen
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Intelligence
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+18
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Clinkz
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Agility
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+19
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Clockwerk
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Strength
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+20
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Crystal maiden
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Intelligence
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+21
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Dark seer
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Intelligence
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+22
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Dazzle
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Intelligence
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+23
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Death prophet
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Intelligence
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+24
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Disruptor
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Intelligence
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+25
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Doom
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Strength
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+26
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Dragon knight
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Strength
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+27
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Drow ranger
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Agility
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+28
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Earth spirit
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Strength
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+29
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Earthshaker
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Strength
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+30
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Elder titan
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Strength
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+31
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Ember spirit
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Agility
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+32
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Enchantress
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Intelligence
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+33
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Enigma
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Intelligence
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+34
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Faceless void
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Agility
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+35
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Gyrocopter
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Agility
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+36
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Huskar
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Strength
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+37
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Invoker
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Intelligence
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+38
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Io
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Strength
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+39
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Jakiro
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Intelligence
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+40
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Juggernaut
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Agility
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+41
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Keeper of the light
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Intelligence
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+42
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Kunkka
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Strength
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+43
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Legion commander
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Strength
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+44
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Leshrac
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Intelligence
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+45
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Lich
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Intelligence
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+46
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Lifestealer
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Strength
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+47
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Lina
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Intelligence
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+48
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Lion
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Intelligence
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+49
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Lone druid
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Agility
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+50
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Luna
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Agility
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+51
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Lycan
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Strength
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+52
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Magnus
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Strength
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+53
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Medusa
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Agility
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+54
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Meepo
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Agility
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+55
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Mirana
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Agility
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+56
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Monkey king
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Agility
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+57
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Morphling
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Agility
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+58
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Naga siren
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Agility
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+59
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Natures prophet
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Intelligence
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+60
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Necrophos
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Intelligence
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+61
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Night stalker
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Strength
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+62
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Nyx assassin
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Agility
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+63
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Ogre magi
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Intelligence
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+64
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Omniknight
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Strength
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+65
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Oracle
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Intelligence
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+66
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Outworld devourer
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Intelligence
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+67
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Phantom assassin
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Agility
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+68
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Phantom lancer
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Agility
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+69
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Phoenix
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Strength
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+70
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Puck
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Intelligence
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+71
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Pudge
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Strength
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+72
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Pugna
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Intelligence
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+73
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Queen of pain
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Intelligence
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+74
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Razor
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Agility
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+75
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Riki
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Agility
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+76
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Rubick
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Intelligence
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+77
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Sand king
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Strength
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+78
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Shadow demon
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Intelligence
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+79
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Shadow fiend
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Agility
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+80
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Shadow shaman
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Intelligence
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+81
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Silencer
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Intelligence
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+82
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Skywrath mage
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Intelligence
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+83
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Slardar
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Strength
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+84
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Slark
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Agility
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+85
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Sniper
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Agility
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+86
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Spectre
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Agility
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+87
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Spirit breaker
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Strength
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+88
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Storm spirit
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Intelligence
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+89
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Sven
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Strength
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+90
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Techies
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Intelligence
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+91
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Templar assassin
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Agility
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+92
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Terrorblade
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Agility
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+93
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Tidehunter
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Strength
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+94
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Timbersaw
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Strength
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+95
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Tinker
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Intelligence
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+96
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Tiny
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Strength
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+97
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Treant protector
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Strength
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+98
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Troll warlord
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Agility
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+99
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Tusk
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Strength
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+100
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Underlord
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Strength
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+101
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Undying
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Strength
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+102
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Ursa
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Agility
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+103
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Vengeful spirit
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Agility
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+104
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Venomancer
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Agility
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+105
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Viper
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Agility
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+106
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Visage
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Intelligence
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+107
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Warlock
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Intelligence
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+108
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Weaver
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Agility
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+109
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Windranger
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Intelligence
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+110
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Winter wyvern
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Intelligence
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+111
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Witch doctor
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Intelligence
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+112
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Wraith king
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Strength
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+113
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Zeus
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Intelligence
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+The International
+\end_layout
+
+\begin_layout Standard
+\begin_inset space \hspace{}
+\length 1.5em
+\end_inset
+
+The International is an annual tournament organized by Valve.
+ the international organized in 2011 with $1.6 million USD prize pool (with
+ $1 million for the champion).
+ 16 teams were invited to play for the title and prize pool increasing every
+ year.
+ In 2015 Valve increased their number of hosted events, founding the Dota
+ Major Championships which incorporates The International into its structure.
+ The International remains the biggest and most prestigious event on the
+ Major Championship circuit.
+\end_layout
+
+\begin_layout Standard
+In 2012 The International moved to Seattle, Washington.
+ The prize pool remained at $1.6 million USD.
+ Only 14 teams were invited; two additional slots were awarded to the winners
+ of regional qualifiers.
+ Since 2013, the Dota 2 community has been able to Contribute to the prize
+ pool by buying a special item called Compendium.
+ With an attractive offer in it, Compendium become the best-selling items
+ in the Dota 2 market and The total prize of The International 2013 grew
+ to $2.8 million USD.
+ In 2014, the prize pool surpassed $10 million.
+ In 2016, it eclipsed $20 million, making The International the biggest
+ esports tournament in terms of prize pool.
+\end_layout
+
+\begin_layout Subsection
+Hero Sets & Items 
+\end_layout
+
+\begin_layout Standard
+\begin_inset space \hspace{}
+\length 1.5em
+\end_inset
+
+Dota 2 merupakan Free To Play games sehingga para pemain tidak perlu membeli
+ game untuk memainkannya.
+ Namun untuk memperoleh keuntungan pada Dota 2, Valve sebagai penyedia game
+ menawarkan item-item menarik untuk menghiasi hero-hero dalam permainan.
+ Item-item tersebut dijual menggunakan steam wallet dalam permainan dan
+ item-item tersebut tidak mempengaruhi status suatu hero melainkan hanya
+ memberikan penampilan berbeda pada hero tersebut.
+ Item-item pada Dota 2 dapat dibagi menjadi beberapa macam yaitu Hero sets
+ item dan Non-Hero sets item.
+ Semua item di Dota 2 dibagi menjadi beberapa level istimewa, yaitu:
+\end_layout
+
+\begin_layout Enumerate
+Common
+\end_layout
+
+\begin_layout Enumerate
+Uncommon
+\end_layout
+
+\begin_layout Enumerate
+Rare
+\end_layout
+
+\begin_layout Enumerate
+Mythical
+\end_layout
+
+\begin_layout Enumerate
+Legendary
+\end_layout
+
+\begin_layout Enumerate
+Immortal
+\end_layout
+
+\begin_layout Enumerate
+Arcana
+\end_layout
+
+\begin_layout Enumerate
+Ancient
+\end_layout
+
+\begin_layout Standard
+\begin_inset space \hspace{}
+\length 1.5em
+\end_inset
+
+Level istimewa tersebut diurutkan berdasarkan kelangkaan item tersebut sehingga
+ item dengan level istimewa 
+\begin_inset Quotes eld
+\end_inset
+
+Mythical
+\begin_inset Quotes erd
+\end_inset
+
+ lebih langka dibandingkan dengan item dengan level istimewa 
+\begin_inset Quotes eld
+\end_inset
+
+Rare
+\begin_inset Quotes erd
+\end_inset
+
+.
+ Semakin langka atau semakin tinggi level keistimewaan suatu item maka harga
+ yang ditawarkan juga semakin mahal.
+ Umumnya dengan set item dengan level istimewa 
+\begin_inset Quotes eld
+\end_inset
+
+Immortal
+\begin_inset Quotes erd
+\end_inset
+
+ hingga 
+\begin_inset Quotes eld
+\end_inset
+
+Ancient
+\begin_inset Quotes erd
+\end_inset
+
+ memiliki partikel efek yang lebih baik pada game dan dapat merubah gaya
+ pada karakter saat menggunakan skill spesial.
+ Namun perubahan skill tidak mempengaruhi hasil dari pertandingan karena
+ item tersebut hanya aksesoris belaka.
+ 
+\end_layout
+
+\begin_layout Subsubsection*
+Hero Sets
+\end_layout
+
+\begin_layout Standard
+\begin_inset space \hspace{}
+\length 1.5em
+\end_inset
+
+Item ini merupakan item yang dikhususkan untuk hero tertentu.
+ Umumnya item ini dijual dalam bentuk 
+\shape italic
+Bundle
+\shape default
+ yang terdiri dari lebih dari satu item tergantung dari slot yang tersedia
+ pada hero tersebut.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+centering
+\end_layout
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename figure/set_item.jpg
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Vestige of the Arsenal Magus set for Invoker
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection*
+Non-Hero Sets
+\end_layout
+
+\begin_layout Standard
+\begin_inset space \hspace{}
+\length 1.5em
+\end_inset
+
+Berbeda dengan Hero sets item, jenis item ini digunakan untuk mempersonalisasika
+n tampilan menu dan suara notifikasi saat berada dalam permainan.
+ Item ini bisa berupa layar transisi yang berubah-ubah saat memulai permainan
+ ataupun kurir yang mengantarkan barang di dalam permainan.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+centering
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename figure/courier.jpg
+	scale 20
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Legendary level courier
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Web Programming
+\end_layout
+
+\begin_layout Subsection
+HTML
+\end_layout
+
+\begin_layout Standard
+\begin_inset space \hspace{}
+\length 1.5em
+\end_inset
+
+HTML is a pure text file that can be created with any text editor.
+ This doc- ument is known as a web page.
+ HTML is a collection of code that is displayed in the format tag to be
+ displayed in a web page 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Kuswayatno2006"
+literal "true"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsection
+MySQL
+\end_layout
+
+\begin_layout Standard
+\begin_inset space \hspace{}
+\length 1.5em
+\end_inset
+
+MySQL database is a management system based on very famous SQL data and
+ it is open source.
+ MySQL built, distributed and supported by MySQL AB.
+ MySQL AB is a commercial company that is financed by the developers (developers
+) MySQL 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Hardjono2006"
+literal "true"
+
+\end_inset
+
+.
+ MySQL could be defined as: 
+\end_layout
+
+\begin_layout Enumerate
+MySQL is a database management system.
+ The database is a data stor- age structure to add, access, and process
+ data stored in a computer database.
+ Required management system databases such as MySQL Server.
+ 
+\end_layout
+
+\begin_layout Enumerate
+MySQL is a database management system or connected database (rela- tional
+ database management system).
+ Connected database stores data at separate tables.
+ It will increase the speed and flexibility.
+ Words SQL in MySQL stands for Structured Query Language.
+ SQL is a standard language used to access the database and defined by the
+ ANSI or ISO SQL Standard.
+ 
+\end_layout
+
+\begin_layout Enumerate
+MySQL is an open source software.
+ Open Source means everyone al- lowed to use and modify the model.
+ Everyone can download MySQL software downloads from the Internet and use
+ it without paying, the source code can be learned and used as a necessity.
+ 
+\end_layout
+
+\begin_layout Enumerate
+MySQL database server has a high-speed access, easy to use, and re- liable.
+ MySQL was developed to handle large databases with fast and has been successful
+ly used for many years.
+ Connectivity, speed, and se- curity make MySQL server suitable to access
+ database on the Internet.
+ 
+\end_layout
+
+\begin_layout Standard
+The main features from MySQL are: 
+\end_layout
+
+\begin_layout Enumerate
+Written in C and C++ .
+\end_layout
+
+\begin_layout Enumerate
+Working in a variety of platforms (eg Mac OS X, Solaris, Sun OS, Unix, Novel
+ Netware, Windows, etc).
+\end_layout
+
+\begin_layout Enumerate
+Provide transactions and no transactions storage engine.
+\end_layout
+
+\begin_layout Enumerate
+The server is available as a separate program to use on the network client
+ or server environment.
+ 
+\end_layout
+
+\begin_layout Enumerate
+MySQL has a library that can be embedded in applications that run itself,
+ so that the application can be used on computers that do not has network.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Having flexible and secure passwords system.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Can handle large-scale database, the database in the server MySQL can contain
+ 50 million records.
+ 
+\end_layout
+
+\begin_layout Subsection
+PHP
+\end_layout
+
+\begin_layout Standard
+\begin_inset space \hspace{}
+\length 1.5em
+\end_inset
+
+Kristanto [2010] states, "there are several ways to insert PHP code in HTML
+ page, while its methods are as follows: 
+\end_layout
+
+\begin_layout Enumerate
+First way 
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+This method is usually used for writing in a text editor that does not recognize
+ the PHP script.
+ Writing is as follows: 
+\end_layout
+
+\begin_layout Standard
+<? script language = php> 
+\end_layout
+
+\begin_layout Standard
+.......PHP Script......
+ 
+\end_layout
+
+\begin_layout Standard
+</ script> 
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+2.
+ Second Way The second method is typically used in XML format documents.
+ Writing is as follows: <? php .......PHP Script......
+ ?> 
+\end_layout
+
+\begin_layout Standard
+3.
+ Third way The last way is usually used for the HTML document format.
+ Writing is as follows: <php? .....
+ 
+\end_layout
+
+\begin_layout Section
+Software Testing
+\end_layout
+
+\begin_layout Standard
+\begin_inset space \hspace{}
+\length 1.5em
+\end_inset
+
+According to Nidhra and Dondeti (2012), software testing is the process
+ of verification and validation whether a software application or program
+ meets the requirements of business and technical requirements that drive
+ the design and development and how it works as expected and also identify
+ critical errors that are classified based on the level severity in applications
+ that must be corrected.
+ Software testing is a technique often used to verify and validate the quality
+ of the software.
+ Software testing is a procedure for executing a program or system in order
+ to find fault.
+ The conclusion that can be drawn from those opinions are software testing
+ is the process of verification and validation whether the software meets
+ the requirements and identifying errors found during the program execution.
+ Test granularity refers to the fineness or coarseness focus test.
+ Smooth test cases allows the tester to check the details on the lower level,
+ a regular on the internal system.
+ Rough test cases provide information about the general behavior of the
+ system to the tester.
+ There are three spectra to test granularity, namely:
+\end_layout
+
+\begin_layout Enumerate
+Structural(White Box) Tests
+\end_layout
+
+\begin_layout Enumerate
+Behavioral (Black Box) Tests
+\end_layout
+
+\begin_layout Enumerate
+Live Tests
+\end_layout
+
+\begin_layout Subsection
+Black Box Testing
+\end_layout
+
+\begin_layout Standard
+\begin_inset space \hspace{}
+\length 1.5em
+\end_inset
+
+Black-box testing, also called behavioral testing, focuses on the functional
+ requirements of the software.
+ That is, black-box testing enables the software engineer to derive sets
+ of input conditions that will fully exercise all functional requirements
+ for a program 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "pressman2001"
+literal "true"
+
+\end_inset
+
+.
+ Black-box testing is not an alternative to white-box techniques.
+ Rather, it is a complementary approach 29 that is likely to uncover a different
+ class of errors than white-box methods.
+ Black-box testing attempts to find errors in the following categories :
+\end_layout
+
+\begin_layout Enumerate
+Incorrect or missing functions
+\end_layout
+
+\begin_layout Enumerate
+Interface errors
+\end_layout
+
+\begin_layout Enumerate
+Errors in data structures or external data base access
+\end_layout
+
+\begin_layout Enumerate
+Behavior or performance errors, and
+\end_layout
+
+\begin_layout Enumerate
+Initialization and termination errors
+\end_layout
+
+\begin_layout Standard
+\begin_inset space \hspace{}
+\length 1.5em
+\end_inset
+
+Unlike white-box testing, which is performed early in the testing process,
+ blackbox testing tends to be applied during later stages of testing.
+ Because black-box testing purposely disregards control structure, attention
+ is focused on the information domain.
+\end_layout
+
+\begin_layout Chapter
+RESEARCH METHODOLOGY
+\end_layout
+
+\begin_layout Section
+Research Design
+\end_layout
+
+\begin_layout Standard
+\begin_inset space \hspace{}
+\length 1.5em
+\end_inset
+
+The research method is the primary method used by researchers to ob- tain
+ and determine the answer to the problem posed to achieve certain goals
+\begin_inset CommandInset citation
+LatexCommand citep
+key "sugiyono2008"
+literal "true"
+
+\end_inset
+
+.Type of research method that used in this research is quantitative research.
+ Quantitative research method is an approach to empirical studies to collect,
+ analyze and present data in numerical form.
+ The research method could be seen .
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+centering
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename figure/research design diagram_new.png
+	scale 60
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Research Design Diagram
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The research began with a search for literature on the intention of con-
+ sumer behavior.
+ Literature in the form of previous research (i.e.
+ books, jour- nals and thesis).
+ Setelah itu mendefiniskan data apa saja yang akan digunakan untuk mendukung
+ penelitian.
+ Metode pengambilan data yang sesuai dapat diperoleh setelah data sudah
+ terdefinisi dan akan di proses menggunakan algoritma Apriori untuk mengetahui
+ trends hero saat ini sehingga dapat membuat strategi marketing yang tepat.
+ 
+\end_layout
+
+\begin_layout Section
+Collecting Data
+\end_layout
+
+\begin_layout Subsection
+Defining Data
+\end_layout
+
+\begin_layout Standard
+\begin_inset space \hspace{}
+\length 1.5em
+\end_inset
+
+Untuk mendapatkan informasi untuk menentukan strategi marketing yang sesuai.
+ Maka perlu didefinisikan data yang dibutuhkan untuk diolah.
+ Jumlah data yang besar dapat diwakili dengan beberapa data sampel yang
+ sesuai.
+ Berdasarkan penelitian 
+\shape italic
+Teknik Sampling 
+\shape default
+oleh Prof.
+ Rozaini Nasution, SKM pada tahun 2003, Dalam rangka pengambilan sampel,
+ ada beberapa pengertian yang perlu diketahui, yaitu population target,
+ sampling frame, sampling unit, sampling plan dan random.
+\end_layout
+
+\begin_layout Subsubsection
+Population Target
+\end_layout
+
+\begin_layout Standard
+\begin_inset space \hspace{}
+\length 1.5em
+\end_inset
+
+Yaitu populasi yang menjadi sasaran pengamatan atau populasi dari mana suatu
+ keterangan akan diperoleh.
+\end_layout
+
+\begin_layout Subsubsection
+Sampling Frame
+\end_layout
+
+\begin_layout Standard
+\begin_inset space \hspace{}
+\length 1.5em
+\end_inset
+
+Yaitu suatu daftar unit-unit yang ada pada populasi yang akan diambil sampelnya
+ (daftar anggota populasinya).
+ 
+\end_layout
+
+\begin_layout Subsubsection
+Sampling Unit
+\end_layout
+
+\begin_layout Standard
+\begin_inset space \hspace{}
+\length 1.5em
+\end_inset
+
+Yaitu unit terkecil pada populasi yang akan diambil sebagai sampel .
+\end_layout
+
+\begin_layout Subsubsection
+Sampling Plan
+\end_layout
+
+\begin_layout Standard
+\begin_inset space \hspace{}
+\length 1.5em
+\end_inset
+
+Yaitu rancangan yang meliputi cara pengambilan sampel dan penentuan besar
+ sampelnya.
+ 
+\end_layout
+
+\begin_layout Subsubsection
+Random
+\end_layout
+
+\begin_layout Standard
+\begin_inset space \hspace{}
+\length 1.5em
+\end_inset
+
+Yaitu cara mengambil sampel, dimana setiap unit dalam populasi mempunyai
+ kesempatan yang sama untuk dipilih menjadi anggota sampel.
+ 
+\end_layout
+
+\begin_layout Subsection
+Collecting Data Method
+\end_layout
+
+\begin_layout Standard
+\begin_inset space \hspace{}
+\length 1.5em
+\end_inset
+
+Untuk mendapatkan data yang dibutuhkan, valve sebagai developer game DOTA
+ 2 menyediakan data yang dapat diambil dari API URL endpoint yang disediakan.
+ API(Application programming interface) dimanfaatkan oleh pengembang lain
+ untuk mengolah data tersebut demi mendapatkan informasi - informasi tertentu.
+ Salah satu pengembang yang memanfaatkan fitur API tersebut adalah dotabuff.com.
+ Sebagai situs yang menyediakan data statistik berdasarkan setiap pengguna
+ yang sudah terdaftar dan mengijinkan data pertandingannya ditampilkan,
+ dotabuff.com memberikan informasi yang cukup lengkap.
+ 
+\end_layout
+
+\begin_layout Standard
+Bahkan terdapat informasi mengenai pertandingan yang baru saja selesai secara
+ realtime, sehingga dotabuff.com bisa menjadi sumber data pertandingan yang
+ baik untuk bisa diolah kembali.
+ Dengan menggunakan metode data mining yang diimplementasikan menjadi sebuah
+ web aplikasi maka akan dibuat halaman khusus untuk input data secara manual
+ data yang ada maupun secara automatis dengan menggunakan OpenAPI.
+ 
+\end_layout
+
+\begin_layout Standard
+Terdapat 672.555 pemain aktif terhitung pada bulan Maret tahun 2016 sehingga
+ dari total pemain tersebut bisa diambil sampel untuk mewakili kesuluruhan
+ data yang ada dengan menggunakan rumus Slovin dimana diasumsikan satu pertandin
+gan mewakili satu orang pengguna.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+n=\frac{N}{1+Ne^{2}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+n=\frac{672.555}{1+672.555(0.05^{2})}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+n=400
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Pada rumus Slovin , 
+\shape italic
+n
+\shape default
+ sebagai jumlah sampel yang dibutuhkan dan 
+\shape italic
+N
+\shape default
+ sebagai populasi sejumlah 672.555 dengan 
+\shape italic
+e
+\shape default
+ sebagai toleransi kesalahan.
+ Toleransi kesalahan yang digunakan adalah lima percent.
+ Sehingga jumlah minimum data sampel yang dibutuhkan untuk penelitian ini
+ adalah 400.
+\end_layout
+
+\begin_layout Section
+Finding Current Trends
+\end_layout
+
+\begin_layout Standard
+\begin_inset space \hspace{}
+\length 1.5em
+\end_inset
+
+Markets are all the actual and potential buyers of the firm’s products.
+ Few firms can capture 100% of the market for their products; marketers
+ more commonly aim for whichever portions of the market the firm can best
+ serve.
+ The remainder of the customers would go to the competition, or just be
+ people who never hear of the product and therefore do not buy it.
+ Even giant firms such as Coca-Cola have less than half of the market for
+ their product category.
+ For this reason marketers usually break down the overall market into segments
+ (groups of customers with similar needs and characteristics) or even niches
+ (very specific need and product categories).
+ Sangat penting untuk mengetahui apa yang pelanggan inginkan dan pada game
+ DOTA 2 pemain merupakan calon customer, jadi penting untuk mengetahui hero
+ apa yang pemain inginkan saat ini.
+ 
+\end_layout
+
+\begin_layout Subsection
+Operate The Data using Apriori Algorithm
+\end_layout
+
+\begin_layout Standard
+\begin_inset space \hspace{}
+\length 1.5em
+\end_inset
+
+Algoritma Apriori merupakan metode yang digunakan untuk mengetahui relasi
+ antar data yang maka dengan adanya data yang diperoleh maka dapat ditemukan
+ beberapa 
+\end_layout
+
+\begin_layout Subsubsection
+Finding The Most Data
+\end_layout
+
+\begin_layout Standard
+\begin_inset space \hspace{}
+\length 1.5em
+\end_inset
+
+Langkah pertama pada algoritma apriori adalah memilah data berdasarkan jenisnya
+ .
+ Pada kasus ini data pertandingan akan dipilah berdasarkan nama Hero yang
+ digunakan sehingga dapat diketahui berapa kali hero tersebut di gunakan
+ pada sample data.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+centering
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Unsorted Table
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Tabular
+<lyxtabular version="3" rows="6" columns="2">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Hero Names
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Total Usage
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Abaddon 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+45
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Alchemist 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+63
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Ancient Apparition 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+45
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Anti-mage 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+76
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Arc Warden 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+19
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Pada table 3.1 dapat dilihat lima data teratas dari 110 yang dipilah berdasarkan
+ nama Hero.
+ Selanjutnya untuk mengetahui nama Hero yang paling sering digunakan, dibutuhkan
+ metode pengurutan dari nilah total pemakaian.
+ Metode pengurutan yang digunakan adalah metode Buble Sort.
+ Dengan metode ini yang diimplementasikan dalam bentu aloritma pemrograman,
+ maka dapat dihasilkan data sebagai berikut.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+centering
+\end_layout
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Sorted Table
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Tabular
+<lyxtabular version="3" rows="6" columns="2">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Hero Names
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Total Usage
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+PUDGE 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+168
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+PHANTOM ASSASSIN 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+147
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+INVOKER 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+135
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+MIRANA 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+113
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+LEGION COMMANDER 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+112
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Berdasarkan data pada Table 3.2 , Pudge merupakan hero yang paling sering
+ digunakan pada pertandingan DOTA 2 dengan total penggunaan sebanyak 168
+ kali .
+ Dengan adanya data ini maka bisa di temukan keterikatan hero yang dibutuhkan
+ untuk mengetahui beberapa hero yang selalu ada bersamaan dengan Pudge pada
+ satu pertandingan.
+ 
+\end_layout
+
+\begin_layout Subsubsection
+Finding The Appropriate Data
+\end_layout
+
+\begin_layout Standard
+\begin_inset space \hspace{}
+\length 1.5em
+\end_inset
+
+Setelah mendapatkan hero yang sedang trending atau yang paling sering digunakan,
+ maka dari 470 sample perlu dicari keterikatan setiap hero pada sample tersebut.
+ Dengan memilah setiap data menjadi pasangan nama hero maka format data
+ yang diperoleh adalah sebagai berikut:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+centering
+\end_layout
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Apriorate Table
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Tabular
+<lyxtabular version="3" rows="6" columns="2">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Couple of Heroes Name
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Total Usage
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+{ABADDON, ALCHEMIST} 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+3
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+{ABADDON, ANCIENT APPARITION}
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+4
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+{ABADDON, ANTI-MAGE}
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+5
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+{ABADDON, ARC WARDEN} 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+{ABADDON, AXE}
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+8
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Data pasangan semua Hero akan digunakan untuk mengetahui seberapa besar
+ Confidence dan Support yang dimiliki dari keterikatan data tersebut.
+ Hero yang sedang trending adalah Pudge, maka perlu diketahui sepuluh pasangan
+ hero yang jumlahnya paling banyak.
+\end_layout
+
+\begin_layout Section
+Marketing Strategy
+\end_layout
+
+\begin_layout Standard
+\begin_inset space \hspace{}
+\length 1.5em
+\end_inset
+
+Dengan mengetahui trending saat ini dan data hero yang terkait dengan trending,
+ maka dapat ditentukan strategi marketing yang sesuai berdasarkan segmentasi
+ ,target dan posisi produk.
+ Sehingga keuntungan yang dapat diraih diharapkan bisa menjadi lebih maksimal.
+\end_layout
+
+\begin_layout Chapter
+
+\lang english
+IMPLEMENTATION AND TESTING
+\end_layout
+
+\begin_layout Subsection
+
+\lang english
+Defining Data
+\end_layout
+
+\begin_layout Standard
+\begin_inset space \hspace{}
+\length 1.5em
+\end_inset
+
+Saat ini pemasukan dari DOTA 2 adalah dari item yang dijual berupa heroes
+ set item maupun non-hero set item.
+ Umumnya set item dijual dalam bentuk bundle item yang didapatkan secara
+ random dalam satu item yang disebut Treasure Box.
+\end_layout
+
+\begin_layout Standard
+Treasure Box umumnya terdiri dari sepuluh item yang dapat berupa hero set
+ item maupun non-hero set item.
+ Untuk mengoptimalkan isi dari Treasure Box khususnya Hero set item maka
+ dibutuhkan beberapa data, yaitu:
+\end_layout
+
+\begin_layout Subsubsection*
+Hero's Name Collection
+\end_layout
+
+\begin_layout Subsubsection*
+Match Data
+\end_layout
+
+\begin_layout Standard
+\begin_inset space \hspace{}
+\length 1.5em
+\end_inset
+
+Data 
+\end_layout
+
+\begin_layout Subsubsection*
+Specific Hero Set Item Data
+\end_layout
+
+\begin_layout Chapter
+
+\lang english
+CONCLUSIONS AND FUTURE WORKS
+\end_layout
+
+\begin_layout Section
+
+\lang english
+Conclusions
+\end_layout
+
+\begin_layout Standard
+
+\lang english
+\begin_inset space \hspace{}
+\length 1.5em
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Future Works 
+\end_layout
+
+\begin_layout Standard
+
+\lang english
+\begin_inset space \hspace{}
+\length 1.5em
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+renewcommand
+\backslash
+bibname{Bibliography}
+\end_layout
+
+\end_inset
+
+
+\begin_inset CommandInset bibtex
+LatexCommand bibtex
+btprint "btPrintAll"
+bibfiles "biblio"
+options "apalike"
+
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+addcontentsline{toc}{chapter}{Bibliography}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Chapter*
+
+\lang english
+APPENDIX
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+addcontentsline{toc}{chapter}{Appendix}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document
