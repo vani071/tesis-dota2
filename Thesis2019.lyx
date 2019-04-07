@@ -283,17 +283,8 @@ vspace*{10mm}
 \series bold
 \size larger
 \lang english
-QUALITY ASSESSMENT ON MOBILE SHOPPING APPLICATIONS USING ISO/IEC 25010 QUALITY
- MODEL 
-\end_layout
-
-\begin_layout Standard
-\align center
-
-\series bold
-\size larger
-\lang english
-(CASE STUDY: LAZADA MOBILE APPS)
+DETERMINES THE MARKETING STRATEGY FOR HERO SETS ITEM OF DOTA 2 WITH APRIORI
+ ALGORITHM
 \end_layout
 
 \begin_layout Standard
@@ -633,8 +624,8 @@ newpage
 
 \size larger
 \lang english
-FACTORS AFFECTING CONSUMER ACCEPTANCE OF TRANSPORTATION SERVICES APPLICATION
- IN JAKARTA : USING EXTENDED UTAUT AND STRUCTURAL EQUATION MODELING
+DETERMINES THE MARKETING STRATEGY FOR HERO EQUIPMENT OF DOTA 2 WITH APRIORI
+ ALGORITHM
 \end_layout
 
 \begin_layout Standard
@@ -807,7 +798,7 @@ vspace*{5mm}
 \align center
 Submitted as a partial fulllment of the Requirements for Master Degree of
  Information System Management Concentrating on Business Information System
- Gunadarma University 
+ Gunadarma University
 \end_layout
 
 \begin_layout Standard
@@ -1505,8 +1496,8 @@ addcontentsline{toc}{chapter}{Curriculum Vitae}
 \begin_layout Standard
 
 \lang english
-The author's full name is Budi Setiawan Santoso who was born in Jakarta,
- June 4th 1993 is the second child from three children in his family.
+The author's full name is Vani Ahmad Ramadhan who was born in Jakarta, June
+ 4th 1993 is the second child from three children in his family.
  His educational background started from SDK IGN.
  Slamet Riyadi (East Jakarta) and graduated in 2005.
  His junior high school in SMPK.
@@ -2042,13 +2033,13 @@ Background
 \length 1.5em
 \end_inset
 
-Jumlah data bertambah banyak dan berkembang seiring dengan kemajuan ilmu
- pengetahuan dan teknologi informasi .
- Sehingga dibutuhkan sebuah teknik khusus untuk memprosesnya dan data yang
- jumlah besar membuat kegiatan manusia saat ini tidak lepas dari peran komputer.
- Terdapat banyak bidang profesi yang telah menggunakan kemampuan komputer
- untuk mendapatkan solusi dalam menyelesaikan masalah tersebut.
- Seperti pada Square Kilometer Array (SKA) 
+The amount of data is increasing and developing along with the increase
+ in knowledge and information technology.
+ A special technique is needed to process it and large amounts of data make
+ human activities at this time inseparable from the role of computers.
+ There are many professional fields that have used the ability of computers
+ to get solutions to solve these problems.
+ Like at Square Kilometer Array (SKA) 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "DewdneyP2009"
@@ -2056,58 +2047,54 @@ literal "true"
 
 \end_inset
 
-di Radio Astronomy terdiri dari 1.000 sampai dengan 1.500 piring dengan volume
- data 40 gigabyte/second.
- Game merupakan salah satu contoh pada bidang hiburan yang mendapatkan dampak
- besar dari kemajuan teknologi dan perkembangan data.
- Dengan teknologi yang canggih, game menjadi semakin kompleks dan membutuhkan
- strategi yang tepat untuk mnyelesaikannya membuat game menjadi semakin
- menarik.
- Jaringan internet memungkinkan para pemain dari sisi dunia manapun dapat
- bertanding satu sama lain dalam bentung kelompok atau perorangan.
+on Astronomy Radio consists of 1,000 to 1,500 dishes with a data volume
+ of 40 gigabytes/second.
+ Games are one of the examples in the entertainment sector that has had
+ a major impact on technological advancements and the development of data.
+ With sophisticated technology, gaming is becoming increasingly complex
+ and requires the right strategy to solve it, making the game more interesting.
+ The internet network allows players from any side of the world to compete
+ with each other in groups or individuals.
 \end_layout
 
 \begin_layout Standard
 
 \lang english
-MOBA ( Multiplayer Online Battle Arena) merupakan jenis game yang menyediakan
- fitur tersebut dan salah satu judul game berjenis tersebut adalah Dota
- 2.
- Dota 2 merupakan game yang cukup populer dapat dilihat pada website steamcharts.
-com bahwa jumlah rata-rata pemain aktif sebanyak 672.555 pemain di seluruh
- dunia pada bulan Maret 2016.
- Dengan kepopuleran game Dota 2 tersebut maka banyak diselenggarakan kompetisi
- lokal maupun internasional untuk meramaikan permainan.
- Hadiah yang besar membuat pemain Dota 2 menjadi sangat kompetitif bersaing
- memperebutkannya.
- Hadiah kompetisi terbesar yang disebut The International di Dota 2 semakin
- bertambah secara signifikan seiring dengan pergantian tahun.
+MOBA (Multiplayer Online Battle Arena) is a type of game that provides these
+ features and Dota 2 is one of the MOBA type games.
+ Dota 2 is a popular game that can be seen on the site Steamcharts.com that
+ the average number of active players is 672,555 players worldwide in March
+ 2016.
+ With the popularity of Dota 2, many local and international competitions
+ were held to enliven the game.
+ Great prizes make Dota 2 players very competitive to compete for it.
+ The competition with the biggest prize called The International in Dota
+ 2 has increased significantly over the years.
  
 \end_layout
 
 \begin_layout Standard
 
 \lang english
-Terhitung pada tahun 2014 total hadiah yang diterima sebesar $10.930.698 dan
- bertambah setiap tahunnya.
- Jumlah total hadiah pada turnamen The international ditentukan dari 25%
- total pendapatan dari pembelian item khusus yang disebut Compendium.
- Compendium merupakan sebuah item bundle yang berisi beberapa item accesories
- lain didalamnya, item accesories tersebut bisa didapatkan dengan mengumpulkan
- point yang diperoleh dengan menyelesaikan beberapa misi pada satu pertandingan.
- Sehingga tercatat pada tahun 2016 hadiah total pada turnamen The International
- mencapai $20.770.460.
- Dengan jumlah yang mencapai hampir dua kali lipat dari tahun 2014, mengindikasi
-kan bahwa terdapat sejumlah besar pemain aktif yang siap membeli item pada
- Dota 2 sehingga memberikan keuntungan yang cukup signifikan.
- Pemasaran merupakan factor penting dibalik kesuksesan Dota 2 dalam meningkatkan
- pendapatan.
- Sehingga dengan semakin populernya Dota 2 membuat data pemain dan data
- permainan semakin bertambah dan semakin banyak sehingga Data mining merupakan
- metode yang tepat untuk mengolah data dengan jumlah besar untuk mendapatkan
- informasi yang dibutuhkan.
- Melalui beberapa metode terkini, data mining menjadi sebuah pendekatan
- yang sangat kuat dalam mengolah susunan data 
+TAs of 2014 the total prizes received were $ 10,930,698 and increased every
+ year.
+ The total prize amount for the international tournament is based on 25%
+ of the total income from the purchase of a special item called the Compendium.
+ The compendium is a bundle item that contains several other accesories
+ in it, the item can be obtained by collecting points obtained by completing
+ several missions in one match.
+ In 2016, a total prize of $ 20,770,460 was recorded in the International
+ tournament.
+ With a number that nearly doubled from 2014, it indicates that there are
+ a large number of active players who are ready to buy items on Dota 2 so
+ that it provides a significant advantage.
+ Marketing is an important factor behind Dota 2's success in increasing
+ revenue.
+ So that with the growing popularity of Dota 2, the player data and game
+ data is increasing and increasing, so Data mining is the right method to
+ process large amounts of data to get the information needed.
+ Through several recent methods, data mining is a very powerful approach
+ in processing data arrangements 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "paulo1"
@@ -2116,8 +2103,8 @@ literal "true"
 \end_inset
 
 .
- Dengan menggunakan metode data mining yang sesuai, maka dapat ditentukan
- strategi pemasaran yang sesuai untuk masa depan.
+ By using the appropriate data mining method, marketing strategies that
+ are suitable for the future can be determined.
  
 \end_layout
 
@@ -2132,21 +2119,21 @@ Statement of Problem
 \length 1.5em
 \end_inset
 
-Penelitian ini bertujuan untuk mengetahui strategi pemasaran yang sesuai
- dengan data yang ada pada Dota 2 .
- Sehingga rumusan masalah pada penelitian ini adalah sebagai berikut:
+The purpose of this study is to find out the marketing strategies that are
+ in accordance with the data available in Dota 2 So, the problem statement
+ is obtained as follows:
 \end_layout
 
 \begin_layout Enumerate
-Bagaimana mendapatkan data nama Hero pada setiap pertandingan?
+How to get Hero name data in each match?
 \end_layout
 
 \begin_layout Enumerate
-Bagaimana memproses data yang sudah didapatkan menggunakan algoritma Apriori?
+How to process data that has been obtained using the Apriori algorithm?
 \end_layout
 
 \begin_layout Enumerate
-Bagaimana menggunakan hasil data tersebut untuk strategi pemasaran?
+How to use the results of these data for marketing strategies?
 \end_layout
 
 \begin_layout Section
@@ -2162,39 +2149,30 @@ Scope of the Research
 \length 1.5em
 \end_inset
 
-Terdapat banyak data yang tersedia dalam satu pertandingan Dota 2, seperti
- data yang memuat nama hero, data jenis pertandingan, data yang memuat KDA(Kill
- Death Assist), data item yang digunakan, data GPM (Gold Per Minute) setiap
- karakter yang ada , hingga data nama pemain yang ada .
- Namun dengan melihat apa saja yang ditawarkan Dota 2 pada bagian dipenjualan
- tersebut yang mayoritasnya merupakan item set beberapa Hero, maka batasan
- penelitian pada penelitian ini adalah sebagai berikut:
+There is a lot of data available in one Dota 2 match, such as data that
+ contains hero names, match type data, data containing KDA (Kill Death Assist),
+ item data used, GPM (Gold Per Minute) data for each character that exists,
+ up to existing player name data.
+ But by looking at what is offered by Dota 2 in the sales section, the majority
+ of which are several Hero set items, the limitations of the research in
+ this study are as follows:
 \end_layout
 
 \begin_layout Enumerate
 
 \lang english
-Data yang diambil pada satu pertandingan adalah Data sepuluh nama hero yang
- berbeda.
+Data taken in one match is data of ten different hero names.
 \end_layout
 
 \begin_layout Enumerate
 
 \lang english
-Data pertandingan diambil secara acak dan hanya yang terjadi pada tahun
- 2015 dan 2016 dengan jenis pertandingan 
-\begin_inset Quotes eld
-\end_inset
-
-All pick
-\begin_inset Quotes erd
-\end_inset
-
-.
+Match data are taken randomly and only happens in 2015 and 2016 with the
+ "All pick" match type.
 \end_layout
 
 \begin_layout Enumerate
-Pihak tim yang menang tidak mempengaruhi data pertandingan yang akan diperoses.
+The winning team does not affect the match data that will be processed.
  
 \end_layout
 
@@ -2209,8 +2187,8 @@ Objective of The Research
 \length 1.5em
 \end_inset
 
-Membuat aplikasi untuk memproses data pada Dota 2 dengan data mining menggunakan
- algoritma Apriori untuk menentukan strategi pemasaran.
+Create an application to process Dota 2 match data with data mining using
+ the Apriori algorithm to determine marketing strategies.
 \end_layout
 
 \begin_layout Section
@@ -2230,18 +2208,18 @@ The benefits from this research are:
 \end_layout
 
 \begin_layout Enumerate
-Untuk akademis, penelitian ini diharapkan dapat memberikan informasi mengenai
- penggunaan data mining pada hero Dota 2.
+For academics, this research is expected to provide information about the
+ use of data mining on Dota 2 heroes.
 \end_layout
 
 \begin_layout Enumerate
-Untuk developer, implementasi data mining pada penelitian dapat digunakan
- untuk mengembangkan sistem game Dota 2 saat ini.
+For developers, the implementation of data mining in research can be used
+ to develop the current Dota 2 game system.
 \end_layout
 
 \begin_layout Enumerate
-Untuk penelitian lain, hasil dari penelitian ini dapat dipergunakan untuk
- penelitian lain yang masih dalam lingkup kategori data mining.
+For research, the results of this study can be used as references for other
+ studies that are still within the scope of the data mining category.
 \end_layout
 
 \begin_layout Chapter
@@ -2845,14 +2823,13 @@ Data Mining Concept
 \length 1.5em
 \end_inset
 
-Data mining merupakan evolusi dari teknologi informasi.
- Teknologi informasi yang dapat menampung banyak data namun sangat sedikit
- informasi membuat data mining muncul sebagai solusi.
- Dengan kemampuannya mendapatkan informasi dari begitu banyak data maka
- data mining sering disebut juga sebagai Knowledge Discovery from Data atau
- KDD.
- KDD memiliki beberapa tahap untuk mendapatkan informasi atau pengetahuan
- dari data yang dimiliki, yaitu : 
+Data mining is an evolution of information technology.
+ Information technology that can accommodate a lot of data but very little
+ information makes data mining appear as a solution.
+ With its ability to get information from so many data, data mining is often
+ referred to as Knowledge Discovery from Data or KDD.
+ KDD has several stages to get information or knowledge from the data that
+ is owned, that are : 
 \end_layout
 
 \begin_layout Subsubsection*
@@ -3021,19 +2998,18 @@ Data mining as a step in the process of knowledge discovery
 \begin_layout Standard
 
 \lang english
-Pada Figure 1 dapat dilihat bahwa langkah pertama hingga keempat merupakan
- langkah sebelum pemrosesan data, dimana data disusun terlebih dahulu sebelum
- diproses.
- Proses dilakukan pada tahap data mining sehingga menghasilkan pengetahuan
- yang berguna untuk pengguna atau basis pengetahuan.
- Proses data mining merupakan proses mencari pola yang diinginkan sehingga
- menghasilkan pengetahuan dari data dengan jumlah yang besar.
- Hasil dari proses tersebut akan diterjemahkan ke dalam bahasa yang mudah
- dipahami oleh manusia.
- Sumber data yang digunakan dapat berupa database, data warehouse, web,
- dan other information repositories.
- Data mining sebagai solusi permasalahan dalam mengambil informasi dari
- data dengan jumlah besar memiliki fungsionalitas, yaitu : 
+In Figure 2.1, it can be seen that the first to fourth steps are steps taken
+ before the data is processed, where data is arranged before processing.
+ The process is carried out at the data mining stage so that it produces
+ useful knowledge for the user or knowledge base.
+ The process of data mining is the process of finding the desired pattern
+ so that it produces knowledge from large amounts of data.
+ The results of the process will be translated into languages that are easily
+ understood by humans.
+ The data sources used can be databases, data warehouses, web, and other
+ information repositories.
+ Data mining as a solution to problems in retrieving information from large
+ amounts of data has functionality, namely : 
 \end_layout
 
 \begin_layout Subsubsection*
@@ -3227,8 +3203,8 @@ Association analysis is a data mining methodology that accumulate some data
  (Introduction to data mining ).
  The uncovered relationship of data can be represented in the form of associatio
 n rules.
- Sebagai contoh, bisa dilihat pada table 1 bahwa terdapat beberapa data
- item yang pernah dibeli oleh customer.
+ For example, it can be seen in table 2.2 that there are some data items
+ that have been purchased by the customer.
 \end_layout
 
 \begin_layout Standard
@@ -3414,8 +3390,8 @@ Items
 \begin_layout Standard
 
 \lang english
-Dengan menggunakan Association rule, dapat diperoleh informasi bahwa terdapat
- data yang memiliki hubungan yang kuat , yaitu
+Using the Association rule, information can be obtained that there is data
+ that has a strong relationship, that are
 \end_layout
 
 \begin_layout Standard
@@ -3428,8 +3404,8 @@ Dengan menggunakan Association rule, dapat diperoleh informasi bahwa terdapat
 \begin_layout Standard
 
 \lang english
-Dengan begitu retailer dapat menggunakan rule ini untuk membantu mengidentifikas
-i kesempatan baru untuk cross-selling produknya kepada customer.
+That way, the retailers can use this rule to help identify new opportunities
+ for cross-selling their products to customers.
  Beside market basket data, association analysis is also applicable to other
  application domains such as bioinformatics, medical diagnosis, Web mining
  and scientific data analysis.
@@ -8006,16 +7982,16 @@ Hero Sets & Items
 \length 1.5em
 \end_inset
 
-Dota 2 merupakan Free To Play games sehingga para pemain tidak perlu membeli
- game untuk memainkannya.
- Namun untuk memperoleh keuntungan pada Dota 2, Valve sebagai penyedia game
- menawarkan item-item menarik untuk menghiasi hero-hero dalam permainan.
- Item-item tersebut dijual menggunakan steam wallet dalam permainan dan
- item-item tersebut tidak mempengaruhi status suatu hero melainkan hanya
- memberikan penampilan berbeda pada hero tersebut.
- Item-item pada Dota 2 dapat dibagi menjadi beberapa macam yaitu Hero sets
- item dan Non-Hero sets item.
- Semua item di Dota 2 dibagi menjadi beberapa level istimewa, yaitu:
+Dota 2 is a Free To Play game so players don't need to buy games to play
+ it.
+ But to make a profit on Dota 2, Valve as a game provider offers interesting
+ items to decorate heroes in the game.
+ These items are sold using Steam Wallet in the game and these items do
+ not affect the status of a hero but only give a different appearance to
+ the hero.
+ Items in Dota 2 can be divided into several types, namely Hero sets items
+ and Non-Hero sets items.
+ All items in Dota 2 are divided into special levels, namely:
 \end_layout
 
 \begin_layout Enumerate
@@ -8055,46 +8031,15 @@ Ancient
 \length 1.5em
 \end_inset
 
-Level istimewa tersebut diurutkan berdasarkan kelangkaan item tersebut sehingga
- item dengan level istimewa 
-\begin_inset Quotes eld
-\end_inset
-
-Mythical
-\begin_inset Quotes erd
-\end_inset
-
- lebih langka dibandingkan dengan item dengan level istimewa 
-\begin_inset Quotes eld
-\end_inset
-
-Rare
-\begin_inset Quotes erd
-\end_inset
-
-.
- Semakin langka atau semakin tinggi level keistimewaan suatu item maka harga
- yang ditawarkan juga semakin mahal.
- Umumnya dengan set item dengan level istimewa 
-\begin_inset Quotes eld
-\end_inset
-
-Immortal
-\begin_inset Quotes erd
-\end_inset
-
- hingga 
-\begin_inset Quotes eld
-\end_inset
-
-Ancient
-\begin_inset Quotes erd
-\end_inset
-
- memiliki partikel efek yang lebih baik pada game dan dapat merubah gaya
- pada karakter saat menggunakan skill spesial.
- Namun perubahan skill tidak mempengaruhi hasil dari pertandingan karena
- item tersebut hanya aksesoris belaka.
+This special level is sorted by the scarcity of the item so items with a
+ special level "Mythical" are rarer than items with a special level "Rare".
+ The more scarce or the higher the level of privilege of an item, the higher
+ the price offered.
+ Generally with set items with special levels "Immortal" to "Ancient" have
+ better particle effects in the game and can change the style of the character
+ when using special skills.
+ But the skill change does not affect the outcome of the match because the
+ item is only a mere accessory.
  
 \end_layout
 
@@ -8107,13 +8052,9 @@ Hero Sets
 \length 1.5em
 \end_inset
 
-Item ini merupakan item yang dikhususkan untuk hero tertentu.
- Umumnya item ini dijual dalam bentuk 
-\shape italic
-Bundle
-\shape default
- yang terdiri dari lebih dari satu item tergantung dari slot yang tersedia
- pada hero tersebut.
+This item is an item that is specific to a particular hero.
+ Generally this item is sold in the form of a Bundle consisting of more
+ than one item depending on the slot available on the hero.
 \end_layout
 
 \begin_layout Standard
@@ -8175,10 +8116,10 @@ Non-Hero Sets
 \length 1.5em
 \end_inset
 
-Berbeda dengan Hero sets item, jenis item ini digunakan untuk mempersonalisasika
-n tampilan menu dan suara notifikasi saat berada dalam permainan.
- Item ini bisa berupa layar transisi yang berubah-ubah saat memulai permainan
- ataupun kurir yang mengantarkan barang di dalam permainan.
+Unlike the Hero sets items, this type of item is used to personalize the
+ appearance of the menu and notification sounds while in the game.
+ This item can be a transition screen that changes when starting the game
+ or the courier who delivers the items in the game.
 \end_layout
 
 \begin_layout Standard
@@ -8593,11 +8534,10 @@ The research began with a search for literature on the intention of con-
  sumer behavior.
  Literature in the form of previous research (i.e.
  books, jour- nals and thesis).
- Setelah itu mendefiniskan data apa saja yang akan digunakan untuk mendukung
- penelitian.
- Metode pengambilan data yang sesuai dapat diperoleh setelah data sudah
- terdefinisi dan akan di proses menggunakan algoritma Apriori untuk mengetahui
- trends hero saat ini sehingga dapat membuat strategi marketing yang tepat.
+ After that, define what data will be used to support the research.
+ The appropriate data retrieval method can be obtained after the data has
+ been defined and will be processed using the Apriori algorithm to find
+ out current hero trends so that it can make the right marketing strategy.
  
 \end_layout
 
@@ -8614,18 +8554,14 @@ Defining Data
 \length 1.5em
 \end_inset
 
-Untuk mendapatkan informasi untuk menentukan strategi marketing yang sesuai.
- Maka perlu didefinisikan data yang dibutuhkan untuk diolah.
- Jumlah data yang besar dapat diwakili dengan beberapa data sampel yang
- sesuai.
- Berdasarkan penelitian 
-\shape italic
-Teknik Sampling 
-\shape default
-oleh Prof.
- Rozaini Nasution, SKM pada tahun 2003, Dalam rangka pengambilan sampel,
- ada beberapa pengertian yang perlu diketahui, yaitu population target,
- sampling frame, sampling unit, sampling plan dan random.
+To get information to determine the appropriate marketing strategy.
+ Then it needs to be defined the data needed to be processed.
+ The large amount of data can be represented by some appropriate sample
+ data.
+ Based on the Sampling Technique research by Prof.
+ Rozaini Nasution, SKM in 2003, In order to take samples, there are several
+ notions that need to be known, namely target population, sampling frame,
+ sampling unit, random sampling plan.
 \end_layout
 
 \begin_layout Subsubsection
@@ -8637,8 +8573,8 @@ Population Target
 \length 1.5em
 \end_inset
 
-Yaitu populasi yang menjadi sasaran pengamatan atau populasi dari mana suatu
- keterangan akan diperoleh.
+Tthe population which is the target of observation or the population which
+ an information will be obtained.
 \end_layout
 
 \begin_layout Subsubsection
@@ -8650,8 +8586,8 @@ Sampling Frame
 \length 1.5em
 \end_inset
 
-Yaitu suatu daftar unit-unit yang ada pada populasi yang akan diambil sampelnya
- (daftar anggota populasinya).
+A list of units in the population to be sampled (list of members of the
+ population).
  
 \end_layout
 
@@ -8664,7 +8600,7 @@ Sampling Unit
 \length 1.5em
 \end_inset
 
-Yaitu unit terkecil pada populasi yang akan diambil sebagai sampel .
+The smallest unit in the population to be taken as a sample.
 \end_layout
 
 \begin_layout Subsubsection
@@ -8676,9 +8612,8 @@ Sampling Plan
 \length 1.5em
 \end_inset
 
-Yaitu rancangan yang meliputi cara pengambilan sampel dan penentuan besar
- sampelnya.
- 
+The design includes the method of sampling and determining the size of the
+ sample.
 \end_layout
 
 \begin_layout Subsubsection
@@ -8690,8 +8625,8 @@ Random
 \length 1.5em
 \end_inset
 
-Yaitu cara mengambil sampel, dimana setiap unit dalam populasi mempunyai
- kesempatan yang sama untuk dipilih menjadi anggota sampel.
+The method of sampling, where each unit in the population has the same opportuni
+ty to be selected as a sample member.
  
 \end_layout
 
@@ -8704,32 +8639,29 @@ Collecting Data Method
 \length 1.5em
 \end_inset
 
-Untuk mendapatkan data yang dibutuhkan, valve sebagai developer game DOTA
- 2 menyediakan data yang dapat diambil dari API URL endpoint yang disediakan.
- API(Application programming interface) dimanfaatkan oleh pengembang lain
- untuk mengolah data tersebut demi mendapatkan informasi - informasi tertentu.
- Salah satu pengembang yang memanfaatkan fitur API tersebut adalah dotabuff.com.
- Sebagai situs yang menyediakan data statistik berdasarkan setiap pengguna
- yang sudah terdaftar dan mengijinkan data pertandingannya ditampilkan,
- dotabuff.com memberikan informasi yang cukup lengkap.
+To get the required data, Valve as a DOTA 2 game developer provides data
+ that can be retrieved from the provided API endpoint URL.
+ The API (Application programming interface) is used by other developers
+ to process the data in order to obtain certain information.
+ A developer who uses the API feature is dotabuff.com.
+ As a site that provides statistical data based on each user who has registered
+ and allows the match data to be displayed, dotabuff.com provides fairly
+ complete information.
  
 \end_layout
 
 \begin_layout Standard
-Bahkan terdapat informasi mengenai pertandingan yang baru saja selesai secara
- realtime, sehingga dotabuff.com bisa menjadi sumber data pertandingan yang
- baik untuk bisa diolah kembali.
- Dengan menggunakan metode data mining yang diimplementasikan menjadi sebuah
- web aplikasi maka akan dibuat halaman khusus untuk input data secara manual
- data yang ada maupun secara automatis dengan menggunakan OpenAPI.
- 
+There is even information about the match that has just finished in realtime,
+ so dotabuff.com can be a good source of match data to be able to be reprocessed.
+ By using data mining methods that are implemented into a web application,
+ a special page is created to input data manually or automatically using
+ OpenAPI
 \end_layout
 
 \begin_layout Standard
-Terdapat 672.555 pemain aktif terhitung pada bulan Maret tahun 2016 sehingga
- dari total pemain tersebut bisa diambil sampel untuk mewakili kesuluruhan
- data yang ada dengan menggunakan rumus Slovin dimana diasumsikan satu pertandin
-gan mewakili satu orang pengguna.
+There are 672,555 active players counted in March 2016 so that the total
+ number of players can be sampled to represent the entire data using the
+ Slovin formula where one match is assumed to represent one user.
 \end_layout
 
 \begin_layout Standard
@@ -8766,22 +8698,20 @@ n=400
 \end_layout
 
 \begin_layout Standard
-Pada rumus Slovin , 
+In the Slovin formula, 
 \shape italic
 n
 \shape default
- sebagai jumlah sampel yang dibutuhkan dan 
+ as the number of samples needed and 
 \shape italic
 N
 \shape default
- sebagai populasi sejumlah 672.555 dengan 
+ as the population of 672,555 with 
 \shape italic
 e
 \shape default
- sebagai toleransi kesalahan.
- Toleransi kesalahan yang digunakan adalah lima percent.
- Sehingga jumlah minimum data sampel yang dibutuhkan untuk penelitian ini
- adalah 400.
+ The error tolerance used is 5%.
+ So that the minimum number of sample data needed for this study is 400.
 \end_layout
 
 \begin_layout Section
@@ -8804,9 +8734,9 @@ Markets are all the actual and potential buyers of the firm’s products.
  For this reason marketers usually break down the overall market into segments
  (groups of customers with similar needs and characteristics) or even niches
  (very specific need and product categories).
- Sangat penting untuk mengetahui apa yang pelanggan inginkan dan pada game
- DOTA 2 pemain merupakan calon customer, jadi penting untuk mengetahui hero
- apa yang pemain inginkan saat ini.
+ In sales, it's important to know what customers want and in the DOTA game
+ 2 players are potential customers, so it's important to know what hero
+ the player wants right now.
  
 \end_layout
 
@@ -8833,8 +8763,7 @@ Finding The Most Data
 \length 1.5em
 \end_inset
 
-Langkah pertama pada algoritma apriori adalah memilah data berdasarkan jenisnya
- .
+Langkah pertama pada algoritma apriori adalah memilah data berdasarkan jenisnya.
  Pada kasus ini data pertandingan akan dipilah berdasarkan nama Hero yang
  digunakan sehingga dapat diketahui berapa kali hero tersebut di gunakan
  pada sample data.
@@ -9033,7 +8962,7 @@ Pada table 3.1 dapat dilihat lima data teratas dari 110 yang dipilah berdasarkan
 \begin_inset Float table
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \begin_inset ERT
@@ -9418,7 +9347,7 @@ Data pasangan semua Hero akan digunakan untuk mengetahui seberapa besar
 \end_layout
 
 \begin_layout Section
-Marketing Strategy
+Determines the Marketing Strategy
 \end_layout
 
 \begin_layout Standard
