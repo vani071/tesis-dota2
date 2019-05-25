@@ -1,30 +1,41 @@
 <?php
+	ini_set('max_execution_time', 0);
+	ini_set('memory_limit', -1);
+
 	include_once "template/header.php";
-	include_once "functions.php";
+	include_once "apriori.php";
+
+	const DISPLAYED_RESULT = 10;
+	const MINIMUM_FREQUENCY = 2;
 
 	$inputan = $_GET["inputhero"];
 	$good_heroes = [];
-	$types = [1 => 'str', 2 => 'agi', 3 => 'int'];
 
-	$heroes = file('hero.txt',FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES);
     $lineups = file('data.txt',FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES);
 	$linecount = count($lineups);
 
-	$query = "SELECT nama FROM skill WHERE tipe = 1 ORDER BY nama ASC";
-    $result = mysqli_query($conn, $query);
-    $matchup_heroes['str'] = array_column(mysqli_fetch_all($result, MYSQLI_ASSOC), 'nama');
+	$result = apriori($lineups, $inputan, MINIMUM_FREQUENCY, 1);
 
-    $query = "SELECT nama FROM skill WHERE tipe = 2 ORDER BY nama ASC";
-    $result = mysqli_query($conn, $query);
-    $matchup_heroes['agi'] = array_column(mysqli_fetch_all($result, MYSQLI_ASSOC), 'nama');
+	if ($inputan =='') {
+		$inputan = $result['chosen_hero'];
+		$result = $result['frequent_itemsets'];
+	}
 
-    $query = "SELECT nama FROM skill WHERE tipe = 3 ORDER BY nama ASC";
-    $result = mysqli_query($conn, $query);
-    $matchup_heroes['int'] = array_column(mysqli_fetch_all($result, MYSQLI_ASSOC), 'nama');
+	for ($i = 1; $i < count($result); $i++) {
+		$good_heroes = array_merge($good_heroes, $result[$i]);
+	}
 
-    foreach ($types as $key => $type) {
-    	$good_heroes[$key] = apriori($inputan, $heroes, $lineups, $matchup_heroes[$type]);
-    }
+	usort($good_heroes, function ($a, $b) {
+		if ($a['confidence'] == $b['confidence']) {
+			if ($a['support'] == $b['support']) {
+	        	return 0;
+	        }
+
+		    return ($a['support'] < $b['support']) ? 1 : -1;
+	    }
+
+	    return ($a['confidence'] < $b['confidence']) ? 1 : -1;
+	});
  ?>
 
  <script type="text/javascript">
@@ -65,32 +76,36 @@
 
 			      </div>
 			      <div class="row row-centered">
-			      	<?php foreach ($good_heroes as $key => $hero): ?>
-			      	<div class='col-md-3 col-centered'>
-			            <div class='result' >
-			                <div class="form-group">
-			                    <label><?= $hero['name'] ?></label> <img src="assets/img/type/<?= $types[$key] ?>.png" style="float:right;">
-			                    <img class="img-responsive img-rounded" src="assets/img/<?= $hero['name'] ?>/hero.png">
-			                    <br/>
-			                    <div>
-			                    <button id="cek<?= $key ?>" class='btn btn-default form-control'>Details</button>
-			                    </div>
-			                </div>
-			                <div class="form-group">
-			                    <div id="detail<?= $key ?>">
-			                    <label>Confidence: <?= $hero['confidence'] ?> %</label>
-			                    <br/>
-			                    <label>Support: <?= $hero['support'] ?> %</label>
-			                    <br/>
-			                    <label  style="font-size:18px";>
-			                    	Terdapat <?= $hero['match_count'] ?> pertandingan dimana <?= $inputan ?> dan <?= $hero['name'] ?> dalam satu pertandingan
-			                    </label>
-			                    </div>
+			      	<table class="table">
+			      		<thead>
+			      			<th>Hero</th>
+			      			<th class="text-center">Total Match</th>
+			      			<th class="text-center">Support</th>
+			      			<th class="text-center">Confidence</th>
+			      		</thead>
+			      		<tbody>
+			      			<?php $counter = 0 ?>
+			      			<?php foreach ($good_heroes as $data): ?>
+			      				<tr>
+			      					<td>
+			      						<?php foreach ($data['pairs'] as $hero): ?>
+			      							<img src="assets/img/<?= $hero ?>/hero.png" data-toggle="" data-placement="left" title="<?= $hero ?>" width="80" style="margin-right: 5px;">
+			      						<?php endforeach ?>
+			      					</td>
+			      					<td class="text-center"><?= $data['frequency'] ?></td>
+			      					<td class="text-center"><?= number_format($data['support'], 2) ?> %</td>
+			      					<td class="text-center"><?= number_format($data['confidence'], 2) ?> %</td>
+			      				</tr>
+			      				<?php
+			      					$counter++;
 
-			                </div>
-			             </div>
-			        </div>
-			      	<?php endforeach ?>
+			      					if ($counter > DISPLAYED_RESULT) {
+			      						break;
+			      					}
+			      				?>
+			      			<?php endforeach ?>
+			      		</tbody>
+			      	</table>
 					<br/>
 			        <h3 style="font-family:deColypLi;">You can Ban or Pick these heroes to achieve victory </h3>
 			      </div>
